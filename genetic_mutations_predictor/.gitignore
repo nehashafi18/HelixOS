@@ -6,3 +6,5 @@
 node_modules/
 geneinsight/frontend/dist/
 geneinsight/frontend/.vite/
+model.pkl
+variant_summary.txt.gz

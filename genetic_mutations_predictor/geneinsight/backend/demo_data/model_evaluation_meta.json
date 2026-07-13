@@ -1,0 +1,42 @@
+{
+  "id": "model_evaluation",
+  "name": "Model Evaluation Set",
+  "description": "Balanced 1,000-variant dataset for ML model benchmarking (50% pathogenic / 50% benign)",
+  "file": "model_evaluation_dataset.csv",
+  "format": "csv",
+  "variants": 1000,
+  "genes": [
+    "BRCA1",
+    "BRCA2",
+    "TP53",
+    "ATM",
+    "PALB2",
+    "CHEK2",
+    "MLH1",
+    "MSH2",
+    "PTEN",
+    "CDH1",
+    "MYH7",
+    "MYBPC3",
+    "LMNA",
+    "KCNQ1",
+    "SCN1A",
+    "CFTR",
+    "DMD",
+    "FBN1",
+    "COL1A1",
+    "RYR2",
+    "KCNH2",
+    "TTN",
+    "MECP2",
+    "NBN"
+  ],
+  "categories": [
+    "ML Evaluation",
+    "Benchmarking"
+  ],
+  "created_for": "HelixOS Demo",
+  "synthetic": true,
+  "icon": "cpu",
+  "color": "blue"
+}

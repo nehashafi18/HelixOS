@@ -1,0 +1,24 @@
+{
+  "id": "cardiovascular",
+  "name": "Cardiovascular Genetics",
+  "description": "Synthetic cardiomyopathy and arrhythmia variant panel",
+  "file": "cardiovascular_demo.xlsx",
+  "format": "xlsx",
+  "variants": 80,
+  "genes": [
+    "MYH7",
+    "MYBPC3",
+    "LMNA",
+    "TTN",
+    "KCNH2",
+    "RYR2"
+  ],
+  "categories": [
+    "Cardiology",
+    "Inherited Heart Disease"
+  ],
+  "created_for": "HelixOS Demo",
+  "synthetic": true,
+  "icon": "heart",
+  "color": "red"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "rare_disease",
+  "name": "Rare Disease Panel",
+  "description": "Synthetic pediatric and rare disease genetics panel",
+  "file": "rare_disease_demo.csv",
+  "format": "csv",
+  "variants": 100,
+  "genes": [
+    "CFTR",
+    "DMD",
+    "SCN1A",
+    "MECP2",
+    "FBN1",
+    "COL1A1",
+    "KCNQ1"
+  ],
+  "categories": [
+    "Rare Disease",
+    "Pediatric Genetics"
+  ],
+  "created_for": "HelixOS Demo",
+  "synthetic": true,
+  "icon": "flask",
+  "color": "violet"
+}

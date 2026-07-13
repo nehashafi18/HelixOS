@@ -1,0 +1,30 @@
+{
+  "id": "research_cohort",
+  "name": "Research Cohort",
+  "description": "Synthetic multi-project researcher workflow dataset (600 variants)",
+  "file": "research_cohort_demo.csv",
+  "format": "csv",
+  "variants": 600,
+  "genes": [
+    "BRCA1",
+    "BRCA2",
+    "TP53",
+    "ATM",
+    "PALB2",
+    "CHEK2",
+    "MLH1",
+    "MSH2",
+    "MSH6",
+    "PMS2",
+    "EPCAM",
+    "APC"
+  ],
+  "categories": [
+    "Research",
+    "Multi-Gene Panel"
+  ],
+  "created_for": "HelixOS Demo",
+  "synthetic": true,
+  "icon": "microscope",
+  "color": "green"
+}

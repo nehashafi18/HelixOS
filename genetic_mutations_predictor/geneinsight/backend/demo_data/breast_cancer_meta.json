@@ -1,0 +1,24 @@
+{
+  "id": "breast_cancer",
+  "name": "Breast Cancer Panel",
+  "description": "Synthetic hereditary cancer genetics panel for demonstration",
+  "file": "breast_cancer_panel_demo.xlsx",
+  "format": "xlsx",
+  "variants": 75,
+  "genes": [
+    "BRCA1",
+    "BRCA2",
+    "TP53",
+    "PALB2",
+    "ATM",
+    "CHEK2"
+  ],
+  "categories": [
+    "Oncology",
+    "Hereditary Cancer"
+  ],
+  "created_for": "HelixOS Demo",
+  "synthetic": true,
+  "icon": "dna",
+  "color": "rose"
+}

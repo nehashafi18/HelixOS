@@ -1,0 +1,601 @@
+Study_ID,Sample_ID,Gene,Variant,Protein_Change,Original_AA,New_AA,Position,Classification,Prediction,Confidence,Variant_Type,Date_Analyzed,Analyst,HydrophobicityChange,ChargeChange,PolarityChange,SizeChange,OriginalHydrophobicity,NewHydrophobicity
+PROJ-2024-BRCA,SMPL00001,MSH2,c.33A>T,p.Ile11Val,I,V,11,Pathogenic,Pathogenic,0.952,missense variant,2023-11-04,User02,-0.3,0.0,0,-14,4.5,4.2
+PROJ-2024-RARE,SMPL00002,TP53,c.2759A>G,p.Val920Gln,V,Q,920,Uncertain significance,Benign,0.117,missense variant,2023-04-18,User02,-7.7,0.0,1,29,4.2,-3.5
+PROJ-2024-RARE,SMPL00003,STK11,c.4928G>A,p.Thr1643Cys,T,C,1643,Pathogenic,Pathogenic,0.955,nonsense variant,2023-01-17,User03,3.2,0.0,-1,2,-0.7,2.5
+PROJ-2024-RARE,SMPL00004,MUTYH,c.3733T>C,p.Leu1245Tyr,L,Y,1245,Benign,Benign,0.115,frameshift variant,2024-05-17,User02,-5.1,0.0,1,50,3.8,-1.3
+PROJ-2024-BRCA,SMPL00005,BRCA1,c.2864A>T,p.Gln955Ala,Q,A,955,Benign,Benign,0.147,splice site variant,2024-09-21,User01,5.3,0.0,-1,-57,-3.5,1.8
+PROJ-2024-CARD,SMPL00006,PTEN,c.5158G>A,p.Thr1720Ile,T,I,1720,Likely benign,Benign,0.338,missense variant,2024-04-19,User05,5.2,0.0,-1,12,-0.7,4.5
+PROJ-2024-CARD,SMPL00007,RYR2,c.1042T>A,p.Asn348Ser,N,S,348,Benign,Benign,0.07,nonsense variant,2023-05-08,User04,2.7,0.0,0,-27,-3.5,-0.8
+PROJ-2025-ONCO,SMPL00008,MSH6,c.3208G>G,p.Ile1070Met,I,M,1070,Uncertain significance,Benign,0.327,missense variant,2024-04-23,User01,-2.6,0.0,0,18,4.5,1.9
+PROJ-2025-ONCO,SMPL00009,MUTYH,c.1340G>T,p.Phe447Tyr,F,Y,447,Likely pathogenic,Pathogenic,0.801,missense variant,2025-01-03,User02,-4.1,0.0,1,16,2.8,-1.3
+PROJ-2024-RARE,SMPL00010,CFTR,c.3256A>C,p.Leu1086Ser,L,S,1086,Pathogenic,Pathogenic,0.798,splice site variant,2024-11-02,User02,-4.6,0.0,1,-26,3.8,-0.8
+PROJ-2024-RARE,SMPL00011,CHEK2,c.4871C>A,p.Ile1624Pro,I,P,1624,Benign,Benign,0.055,synonymous variant,2025-07-15,User05,-6.1,0.0,0,-16,4.5,-1.6
+PROJ-2024-BRCA,SMPL00012,SMAD4,c.1254C>C,p.Glu418Ser,E,S,418,Likely pathogenic,Pathogenic,0.804,splice site variant,2025-02-01,User01,2.7,1.0,0,-42,-3.5,-0.8
+PROJ-2025-ONCO,SMPL00013,BMPR1A,c.795A>G,p.Asp265Ala,D,A,265,Likely pathogenic,Pathogenic,0.96,missense variant,2025-08-02,User01,5.3,1.0,-1,-44,-3.5,1.8
+PROJ-2025-ONCO,SMPL00014,EPCAM,c.8902T>C,p.Trp2968Gln,W,Q,2968,Likely benign,Benign,0.194,missense variant,2024-01-19,User03,-2.6,0.0,1,-58,-0.9,-3.5
+PROJ-2024-CARD,SMPL00015,CDH1,c.424G>T,p.Arg142Phe,R,F,142,Benign,Benign,0.232,missense variant,2025-09-08,User01,7.3,-1.0,-1,-9,-4.5,2.8
+PROJ-2025-META,SMPL00016,CHEK2,c.1689A>T,p.Lys563Gln,K,Q,563,Likely benign,Benign,0.102,frameshift variant,2025-01-05,User04,0.4,-1.0,0,0,-3.9,-3.5
+PROJ-2024-CARD,SMPL00017,SMPD1,c.6174G>C,p.Asn2058Tyr,N,Y,2058,Uncertain significance,Benign,0.16,missense variant,2024-07-29,User01,2.2,0.0,0,49,-3.5,-1.3
+PROJ-2024-BRCA,SMPL00018,GBA,c.7179C>G,p.Thr2393Asn,T,N,2393,Likely pathogenic,Pathogenic,0.975,missense variant,2023-04-25,User02,-2.8,0.0,0,13,-0.7,-3.5
+PROJ-2024-RARE,SMPL00019,SCN5A,c.2164A>G,p.Asn722Gly,N,G,722,Likely pathogenic,Pathogenic,0.899,synonymous variant,2023-10-19,User05,3.1,0.0,-1,-57,-3.5,-0.4
+PROJ-2024-BRCA,SMPL00020,MUTYH,c.3798C>C,p.Ser1266Trp,S,W,1266,Likely pathogenic,Pathogenic,0.878,missense variant,2025-09-05,User01,-0.1,0.0,-1,99,-0.8,-0.9
+PROJ-2024-RARE,SMPL00021,NBN,c.1605A>C,p.Tyr535His,Y,H,535,Uncertain significance,Benign,0.262,nonsense variant,2023-10-18,User01,-1.9,0.1,0,-26,-1.3,-3.2
+PROJ-2024-RARE,SMPL00022,MYBPC3,c.8657G>C,p.Asp2886Pro,D,P,2886,Likely benign,Benign,0.222,synonymous variant,2025-06-13,User04,1.9,1.0,-1,-18,-3.5,-1.6
+PROJ-2024-CARD,SMPL00023,BARD1,c.8521C>T,p.Gly2841Trp,G,W,2841,Benign,Benign,0.284,missense variant,2024-08-26,User02,-0.5,0.0,0,129,-0.4,-0.9
+PROJ-2025-META,SMPL00024,APC,c.4811C>A,p.Ala1604Tyr,A,Y,1604,Benign,Benign,0.05,synonymous variant,2023-10-16,User03,-3.1,0.0,1,92,1.8,-1.3
+PROJ-2024-BRCA,SMPL00025,PALB2,c.3925G>T,p.Ile1309Pro,I,P,1309,Likely pathogenic,Pathogenic,0.907,missense variant,2024-03-05,User02,-6.1,0.0,0,-16,4.5,-1.6
+PROJ-2025-ONCO,SMPL00026,PALB2,c.1327T>C,p.Asn443Lys,N,K,443,Pathogenic,Pathogenic,0.79,splice site variant,2025-10-06,User04,-0.4,1.0,0,14,-3.5,-3.9
+PROJ-2025-META,SMPL00027,MYH7,c.1246C>C,p.Val416Pro,V,P,416,Likely benign,Benign,0.285,missense variant,2023-03-10,User03,-5.8,0.0,0,-2,4.2,-1.6
+PROJ-2025-ONCO,SMPL00028,BRCA2,c.1287A>A,p.Met429Lys,M,K,429,Pathogenic,Pathogenic,0.848,missense variant,2025-09-15,User01,-5.8,1.0,1,-3,1.9,-3.9
+PROJ-2024-CARD,SMPL00029,KCNQ1,c.1932T>G,p.Gly644Arg,G,R,644,Pathogenic,Pathogenic,0.8,nonsense variant,2024-09-01,User02,-4.1,1.0,1,99,-0.4,-4.5
+PROJ-2024-CARD,SMPL00030,MLH1,c.7026G>A,p.Cys2342Gln,C,Q,2342,Benign,Benign,0.3,missense variant,2024-08-26,User05,-6.0,0.0,1,25,2.5,-3.5
+PROJ-2024-RARE,SMPL00031,GBA,c.318T>A,p.His106Glu,H,E,106,Likely pathogenic,Pathogenic,0.814,missense variant,2025-03-25,User04,-0.3,-1.1,0,-8,-3.2,-3.5
+PROJ-2024-RARE,SMPL00032,SMPD1,c.7889G>C,p.Lys2630Asp,K,D,2630,Benign,Benign,0.16,missense variant,2024-06-23,User04,0.4,-2.0,0,-13,-3.9,-3.5
+PROJ-2024-BRCA,SMPL00033,HEXA,c.3303G>T,p.Lys1101Ile,K,I,1101,Benign,Benign,0.059,synonymous variant,2024-04-10,User05,8.4,-1.0,-1,-15,-3.9,4.5
+PROJ-2025-ONCO,SMPL00034,ATM,c.5143C>T,p.Pro1715Val,P,V,1715,Benign,Benign,0.253,missense variant,2025-03-19,User01,5.8,0.0,0,2,-1.6,4.2
+PROJ-2025-ONCO,SMPL00035,ARSA,c.7023C>C,p.Trp2341Thr,W,T,2341,Benign,Benign,0.086,frameshift variant,2023-09-16,User01,0.2,0.0,1,-85,-0.9,-0.7
+PROJ-2024-RARE,SMPL00036,KCNQ1,c.2483A>A,p.Asp828Arg,D,R,828,Likely pathogenic,Pathogenic,0.947,missense variant,2025-03-24,User05,-1.0,2.0,0,41,-3.5,-4.5
+PROJ-2025-META,SMPL00037,BARD1,c.5629T>A,p.Lys1877Val,K,V,1877,Pathogenic,Pathogenic,0.937,missense variant,2023-10-31,User05,8.1,-1.0,-1,-29,-3.9,4.2
+PROJ-2024-RARE,SMPL00038,MLH1,c.1241G>T,p.Glu414Tyr,E,Y,414,Uncertain significance,Benign,0.309,nonsense variant,2025-08-26,User01,2.2,1.0,0,34,-3.5,-1.3
+PROJ-2025-ONCO,SMPL00039,APC,c.1770T>G,p.Lys590Gln,K,Q,590,Benign,Benign,0.229,frameshift variant,2023-04-11,User04,0.4,-1.0,0,0,-3.9,-3.5
+PROJ-2025-ONCO,SMPL00040,CDH1,c.4150A>C,p.Asn1384Ala,N,A,1384,Uncertain significance,Benign,0.136,missense variant,2025-06-26,User03,5.3,0.0,-1,-43,-3.5,1.8
+PROJ-2025-ONCO,SMPL00041,CDH1,c.2308T>G,p.Gln770Asp,Q,D,770,Likely benign,Benign,0.106,splice site variant,2025-11-21,User02,0.0,-1.0,0,-13,-3.5,-3.5
+PROJ-2025-META,SMPL00042,PALB2,c.4957A>C,p.Leu1653Val,L,V,1653,Likely pathogenic,Pathogenic,0.936,missense variant,2024-02-16,User01,0.4,0.0,0,-14,3.8,4.2
+PROJ-2024-RARE,SMPL00043,SMAD4,c.623T>T,p.Cys208Ser,C,S,208,Uncertain significance,Benign,0.258,nonsense variant,2023-09-11,User01,-3.3,0.0,1,-16,2.5,-0.8
+PROJ-2025-ONCO,SMPL00044,SMAD4,c.7300G>G,p.Asn2434Thr,N,T,2434,Likely benign,Benign,0.095,missense variant,2024-06-13,User01,2.8,0.0,0,-13,-3.5,-0.7
+PROJ-2024-CARD,SMPL00045,RAD51C,c.612C>C,p.Ala204Gln,A,Q,204,Likely pathogenic,Pathogenic,0.951,missense variant,2025-04-18,User05,-5.3,0.0,1,57,1.8,-3.5
+PROJ-2024-BRCA,SMPL00046,BRCA2,c.1626G>G,p.Ala542Thr,A,T,542,Likely pathogenic,Pathogenic,0.9,frameshift variant,2024-07-17,User04,-2.5,0.0,1,30,1.8,-0.7
+PROJ-2025-META,SMPL00047,SCN5A,c.3097T>A,p.Asn1033Ser,N,S,1033,Likely pathogenic,Pathogenic,0.873,missense variant,2025-02-05,User05,2.7,0.0,0,-27,-3.5,-0.8
+PROJ-2024-RARE,SMPL00048,RAD51C,c.5920G>G,p.Leu1974Glu,L,E,1974,Pathogenic,Pathogenic,0.847,missense variant,2024-09-03,User02,-7.3,-1.0,1,16,3.8,-3.5
+PROJ-2024-RARE,SMPL00049,PMS2,c.697C>A,p.Thr233Ile,T,I,233,Benign,Benign,0.165,nonsense variant,2024-08-28,User03,5.2,0.0,-1,12,-0.7,4.5
+PROJ-2025-META,SMPL00050,RYR2,c.435G>C,p.Pro145Gln,P,Q,145,Benign,Benign,0.26,frameshift variant,2025-09-01,User03,-1.9,0.0,1,31,-1.6,-3.5
+PROJ-2024-BRCA,SMPL00051,ARSA,c.8081C>G,p.Leu2694Gly,L,G,2694,Benign,Benign,0.096,frameshift variant,2024-01-10,User03,-4.2,0.0,0,-56,3.8,-0.4
+PROJ-2024-RARE,SMPL00052,CHEK2,c.2744G>G,p.Ile915Pro,I,P,915,Uncertain significance,Benign,0.17,missense variant,2023-08-30,User04,-6.1,0.0,0,-16,4.5,-1.6
+PROJ-2024-CARD,SMPL00053,ATM,c.7627A>T,p.Trp2543Tyr,W,Y,2543,Pathogenic,Pathogenic,0.874,missense variant,2025-04-26,User01,-0.4,0.0,1,-23,-0.9,-1.3
+PROJ-2025-ONCO,SMPL00054,PMS2,c.4212G>C,p.Phe1404Ile,F,I,1404,Likely benign,Benign,0.346,frameshift variant,2025-09-25,User03,1.7,0.0,0,-34,2.8,4.5
+PROJ-2024-CARD,SMPL00055,APC,c.58C>T,p.Met20Cys,M,C,20,Likely benign,Benign,0.125,frameshift variant,2023-06-30,User02,0.6,0.0,0,-28,1.9,2.5
+PROJ-2024-BRCA,SMPL00056,KCNQ1,c.5272C>G,p.Gln1758Pro,Q,P,1758,Likely benign,Benign,0.159,synonymous variant,2024-10-21,User05,1.9,0.0,-1,-31,-3.5,-1.6
+PROJ-2024-RARE,SMPL00057,MUTYH,c.7700C>A,p.Ala2567Cys,A,C,2567,Likely pathogenic,Pathogenic,0.825,missense variant,2024-09-18,User02,0.7,0.0,0,32,1.8,2.5
+PROJ-2025-META,SMPL00058,PALB2,c.3574G>T,p.Cys1192Met,C,M,1192,Likely benign,Benign,0.266,splice site variant,2023-10-02,User03,-0.6,0.0,0,28,2.5,1.9
+PROJ-2024-CARD,SMPL00059,SMPD1,c.2026C>C,p.Asn676His,N,H,676,Likely benign,Benign,0.046,frameshift variant,2025-10-30,User02,0.3,0.1,0,23,-3.5,-3.2
+PROJ-2025-META,SMPL00060,MSH2,c.4611A>A,p.Asn1537Cys,N,C,1537,Uncertain significance,Benign,0.279,nonsense variant,2023-02-10,User01,6.0,0.0,-1,-11,-3.5,2.5
+PROJ-2025-ONCO,SMPL00061,MSH2,c.4672C>C,p.Gln1558Ser,Q,S,1558,Pathogenic,Pathogenic,0.889,frameshift variant,2023-01-20,User03,2.7,0.0,0,-41,-3.5,-0.8
+PROJ-2024-CARD,SMPL00062,RYR2,c.3317A>A,p.Glu1106Val,E,V,1106,Benign,Benign,0.228,missense variant,2023-08-06,User04,7.7,1.0,-1,-30,-3.5,4.2
+PROJ-2024-RARE,SMPL00063,MUTYH,c.3232T>G,p.Tyr1078His,Y,H,1078,Benign,Benign,0.342,missense variant,2025-10-13,User02,-1.9,0.1,0,-26,-1.3,-3.2
+PROJ-2024-BRCA,SMPL00064,GBA,c.34T>C,p.Met12Ile,M,I,12,Pathogenic,Pathogenic,0.914,synonymous variant,2025-11-13,User01,2.6,0.0,0,-18,1.9,4.5
+PROJ-2024-BRCA,SMPL00065,MLH1,c.5613C>A,p.Lys1871Ile,K,I,1871,Uncertain significance,Benign,0.122,splice site variant,2025-01-07,User03,8.4,-1.0,-1,-15,-3.9,4.5
+PROJ-2024-CARD,SMPL00066,KCNQ1,c.563G>T,p.Glu188Phe,E,F,188,Pathogenic,Pathogenic,0.95,synonymous variant,2024-07-03,User01,6.3,1.0,-1,18,-3.5,2.8
+PROJ-2025-ONCO,SMPL00067,MYBPC3,c.1400T>T,p.Met467Gly,M,G,467,Likely benign,Benign,0.164,frameshift variant,2023-12-08,User01,-2.3,0.0,0,-74,1.9,-0.4
+PROJ-2025-ONCO,SMPL00068,MSH6,c.1273T>C,p.Cys425His,C,H,425,Likely benign,Benign,0.322,nonsense variant,2025-01-04,User05,-5.7,0.1,1,34,2.5,-3.2
+PROJ-2025-ONCO,SMPL00069,BRCA2,c.6000A>G,p.Phe2000Thr,F,T,2000,Pathogenic,Pathogenic,0.958,nonsense variant,2023-01-26,User05,-3.5,0.0,1,-46,2.8,-0.7
+PROJ-2024-CARD,SMPL00070,STK11,c.6428G>T,p.Met2143Val,M,V,2143,Benign,Benign,0.07,missense variant,2023-04-22,User01,2.3,0.0,0,-32,1.9,4.2
+PROJ-2025-ONCO,SMPL00071,EPCAM,c.6092C>G,p.Thr2031Ser,T,S,2031,Likely pathogenic,Pathogenic,0.795,synonymous variant,2023-04-14,User05,-0.1,0.0,0,-14,-0.7,-0.8
+PROJ-2025-ONCO,SMPL00072,STK11,c.4954T>A,p.Val1652Pro,V,P,1652,Likely pathogenic,Pathogenic,0.796,splice site variant,2025-07-04,User03,-5.8,0.0,0,-2,4.2,-1.6
+PROJ-2025-META,SMPL00073,MSH2,c.1261A>A,p.Ser421Ala,S,A,421,Likely benign,Benign,0.168,frameshift variant,2024-09-15,User05,2.6,0.0,-1,-16,-0.8,1.8
+PROJ-2025-ONCO,SMPL00074,PTEN,c.4466T>G,p.Arg1489Met,R,M,1489,Pathogenic,Pathogenic,0.943,frameshift variant,2023-08-22,User01,6.4,-1.0,-1,-25,-4.5,1.9
+PROJ-2024-RARE,SMPL00075,STK11,c.4363A>A,p.Ala1455Asn,A,N,1455,Uncertain significance,Benign,0.21,splice site variant,2025-10-05,User02,-5.3,0.0,1,43,1.8,-3.5
+PROJ-2025-ONCO,SMPL00076,RYR2,c.7509T>C,p.Glu2503Leu,E,L,2503,Likely pathogenic,Pathogenic,0.818,frameshift variant,2023-08-09,User04,7.3,1.0,-1,-16,-3.5,3.8
+PROJ-2025-META,SMPL00077,TP53,c.5538T>A,p.Trp1846Glu,W,E,1846,Likely benign,Benign,0.244,missense variant,2023-04-10,User05,-2.6,-1.0,1,-57,-0.9,-3.5
+PROJ-2024-CARD,SMPL00078,KCNQ1,c.6247C>A,p.Trp2083Ser,W,S,2083,Likely pathogenic,Pathogenic,0.918,missense variant,2024-10-21,User05,0.1,0.0,1,-99,-0.9,-0.8
+PROJ-2024-RARE,SMPL00079,SCN5A,c.3362C>C,p.Gln1121Ile,Q,I,1121,Likely benign,Benign,0.339,missense variant,2025-11-15,User03,8.0,0.0,-1,-15,-3.5,4.5
+PROJ-2024-RARE,SMPL00080,BARD1,c.2467G>C,p.Val823His,V,H,823,Likely pathogenic,Pathogenic,0.905,synonymous variant,2023-12-31,User05,-7.4,0.1,1,38,4.2,-3.2
+PROJ-2025-ONCO,SMPL00081,BARD1,c.6910G>T,p.Glu2304Pro,E,P,2304,Likely benign,Benign,0.221,frameshift variant,2025-12-06,User01,1.9,1.0,-1,-32,-3.5,-1.6
+PROJ-2024-CARD,SMPL00082,BRCA2,c.653G>C,p.Pro218Phe,P,F,218,Pathogenic,Pathogenic,0.82,splice site variant,2024-08-27,User02,4.4,0.0,0,50,-1.6,2.8
+PROJ-2025-META,SMPL00083,TP53,c.1260T>C,p.Asn420Ser,N,S,420,Benign,Benign,0.309,missense variant,2024-08-12,User01,2.7,0.0,0,-27,-3.5,-0.8
+PROJ-2024-BRCA,SMPL00084,SCN5A,c.8421G>C,p.Pro2807Arg,P,R,2807,Uncertain significance,Benign,0.339,nonsense variant,2025-06-26,User02,-2.9,1.0,1,59,-1.6,-4.5
+PROJ-2024-CARD,SMPL00085,MYBPC3,c.7415T>C,p.Trp2472Val,W,V,2472,Likely pathogenic,Pathogenic,0.935,synonymous variant,2023-06-02,User02,5.1,0.0,0,-87,-0.9,4.2
+PROJ-2025-META,SMPL00086,APC,c.4637C>C,p.Thr1546Glu,T,E,1546,Pathogenic,Pathogenic,0.866,nonsense variant,2024-06-06,User01,-2.8,-1.0,0,28,-0.7,-3.5
+PROJ-2025-META,SMPL00087,NBN,c.492G>T,p.Arg164Phe,R,F,164,Likely pathogenic,Pathogenic,0.966,frameshift variant,2025-01-03,User01,7.3,-1.0,-1,-9,-4.5,2.8
+PROJ-2025-META,SMPL00088,BARD1,c.2262T>T,p.Thr754Ile,T,I,754,Benign,Benign,0.061,missense variant,2024-03-29,User02,5.2,0.0,-1,12,-0.7,4.5
+PROJ-2025-META,SMPL00089,NBN,c.3607T>A,p.Met1203Pro,M,P,1203,Likely pathogenic,Pathogenic,0.97,missense variant,2024-12-09,User04,-3.5,0.0,0,-34,1.9,-1.6
+PROJ-2024-BRCA,SMPL00090,SMAD4,c.491G>G,p.Tyr164Ile,Y,I,164,Uncertain significance,Benign,0.158,missense variant,2025-11-24,User03,5.8,0.0,-1,-50,-1.3,4.5
+PROJ-2024-CARD,SMPL00091,ARSA,c.5981A>A,p.Thr1994Arg,T,R,1994,Pathogenic,Pathogenic,0.839,missense variant,2025-12-28,User01,-3.8,1.0,0,55,-0.7,-4.5
+PROJ-2024-CARD,SMPL00092,PALB2,c.8422T>A,p.His2808Ile,H,I,2808,Likely benign,Benign,0.299,frameshift variant,2023-11-11,User01,7.7,-0.1,-1,-24,-3.2,4.5
+PROJ-2024-RARE,SMPL00093,HEXA,c.1075A>C,p.Met359Cys,M,C,359,Pathogenic,Pathogenic,0.791,synonymous variant,2025-04-14,User04,0.6,0.0,0,-28,1.9,2.5
+PROJ-2024-BRCA,SMPL00094,CFTR,c.3886A>A,p.Pro1296Arg,P,R,1296,Pathogenic,Pathogenic,0.858,frameshift variant,2023-04-04,User01,-2.9,1.0,1,59,-1.6,-4.5
+PROJ-2024-RARE,SMPL00095,MYH7,c.3563T>T,p.Thr1188Glu,T,E,1188,Uncertain significance,Benign,0.228,splice site variant,2023-03-05,User04,-2.8,-1.0,0,28,-0.7,-3.5
+PROJ-2025-META,SMPL00096,EPCAM,c.1676C>G,p.Val559Ile,V,I,559,Likely benign,Benign,0.287,frameshift variant,2025-02-03,User01,0.3,0.0,0,14,4.2,4.5
+PROJ-2025-META,SMPL00097,PMS2,c.61A>G,p.Glu21Cys,E,C,21,Benign,Benign,0.225,missense variant,2024-12-05,User02,6.0,1.0,-1,-26,-3.5,2.5
+PROJ-2024-RARE,SMPL00098,RYR2,c.1980A>C,p.Thr660Phe,T,F,660,Likely pathogenic,Pathogenic,0.824,frameshift variant,2023-04-22,User05,3.5,0.0,-1,46,-0.7,2.8
+PROJ-2024-CARD,SMPL00099,HEXA,c.3571T>G,p.Val1191Asp,V,D,1191,Pathogenic,Pathogenic,0.83,missense variant,2024-04-25,User01,-7.7,-1.0,1,16,4.2,-3.5
+PROJ-2024-RARE,SMPL00100,RAD51C,c.2377G>C,p.Tyr793Asp,Y,D,793,Uncertain significance,Benign,0.191,nonsense variant,2025-01-16,User03,-2.2,-1.0,0,-48,-1.3,-3.5
+PROJ-2025-ONCO,SMPL00101,KCNQ1,c.3848G>C,p.Gly1283Ala,G,A,1283,Likely pathogenic,Pathogenic,0.937,frameshift variant,2024-11-10,User04,2.2,0.0,0,14,-0.4,1.8
+PROJ-2024-CARD,SMPL00102,HEXA,c.3754A>G,p.Arg1252Asn,R,N,1252,Likely benign,Benign,0.211,splice site variant,2023-10-14,User05,1.0,-1.0,0,-42,-4.5,-3.5
+PROJ-2025-META,SMPL00103,MUTYH,c.8938A>T,p.Lys2980Asp,K,D,2980,Pathogenic,Pathogenic,0.958,frameshift variant,2024-03-11,User01,0.4,-2.0,0,-13,-3.9,-3.5
+PROJ-2024-CARD,SMPL00104,BMPR1A,c.5800G>C,p.Val1934Trp,V,W,1934,Likely pathogenic,Pathogenic,0.853,missense variant,2025-11-11,User01,-5.1,0.0,0,87,4.2,-0.9
+PROJ-2025-META,SMPL00105,LMNA,c.130C>C,p.Asn44Val,N,V,44,Likely pathogenic,Pathogenic,0.95,missense variant,2024-01-02,User05,7.7,0.0,-1,-15,-3.5,4.2
+PROJ-2024-CARD,SMPL00106,PMS2,c.498G>G,p.Ser166Asn,S,N,166,Likely pathogenic,Pathogenic,0.932,missense variant,2024-02-28,User05,-2.7,0.0,0,27,-0.8,-3.5
+PROJ-2024-RARE,SMPL00107,MYBPC3,c.5589G>G,p.Pro1863Thr,P,T,1863,Pathogenic,Pathogenic,0.788,nonsense variant,2023-12-23,User04,0.9,0.0,1,4,-1.6,-0.7
+PROJ-2025-ONCO,SMPL00108,SCN5A,c.8031T>G,p.Asn2677Tyr,N,Y,2677,Pathogenic,Pathogenic,0.883,frameshift variant,2024-12-07,User04,2.2,0.0,0,49,-3.5,-1.3
+PROJ-2024-CARD,SMPL00109,GBA,c.6168G>C,p.Tyr2056Ala,Y,A,2056,Likely pathogenic,Pathogenic,0.868,missense variant,2023-11-19,User03,3.1,0.0,-1,-92,-1.3,1.8
+PROJ-2025-ONCO,SMPL00110,MSH2,c.4058C>C,p.Ile1353Arg,I,R,1353,Pathogenic,Pathogenic,0.876,nonsense variant,2025-04-21,User01,-9.0,1.0,1,43,4.5,-4.5
+PROJ-2025-META,SMPL00111,SMAD4,c.7050C>A,p.Cys2350Gly,C,G,2350,Benign,Benign,0.09,missense variant,2024-01-04,User05,-2.9,0.0,0,-46,2.5,-0.4
+PROJ-2024-RARE,SMPL00112,LMNA,c.7836C>T,p.Tyr2612Trp,Y,W,2612,Pathogenic,Pathogenic,0.956,nonsense variant,2025-08-23,User04,0.4,0.0,-1,23,-1.3,-0.9
+PROJ-2024-CARD,SMPL00113,EPCAM,c.7384G>C,p.Ile2462Arg,I,R,2462,Likely pathogenic,Pathogenic,0.939,frameshift variant,2024-12-02,User04,-9.0,1.0,1,43,4.5,-4.5
+PROJ-2024-CARD,SMPL00114,PALB2,c.4735T>C,p.Ile1579Gln,I,Q,1579,Likely pathogenic,Pathogenic,0.802,nonsense variant,2023-12-30,User04,-8.0,0.0,1,15,4.5,-3.5
+PROJ-2024-CARD,SMPL00115,TP53,c.1444A>T,p.Val482Thr,V,T,482,Pathogenic,Pathogenic,0.876,missense variant,2025-01-28,User01,-4.9,0.0,1,2,4.2,-0.7
+PROJ-2025-META,SMPL00116,KCNQ1,c.4686T>C,p.Ile1562Thr,I,T,1562,Uncertain significance,Benign,0.223,missense variant,2024-04-21,User01,-5.2,0.0,1,-12,4.5,-0.7
+PROJ-2024-BRCA,SMPL00117,RAD51C,c.5020A>A,p.Tyr1674Val,Y,V,1674,Uncertain significance,Benign,0.099,missense variant,2024-02-25,User03,5.5,0.0,-1,-64,-1.3,4.2
+PROJ-2024-RARE,SMPL00118,RYR2,c.1901T>G,p.Asn634Glu,N,E,634,Likely benign,Benign,0.242,nonsense variant,2025-03-24,User02,0.0,-1.0,0,15,-3.5,-3.5
+PROJ-2025-META,SMPL00119,RYR2,c.5930G>G,p.Val1977Trp,V,W,1977,Likely pathogenic,Pathogenic,0.854,nonsense variant,2025-03-26,User02,-5.1,0.0,0,87,4.2,-0.9
+PROJ-2025-META,SMPL00120,MSH2,c.8594G>A,p.Ile2865Ser,I,S,2865,Likely pathogenic,Pathogenic,0.8,missense variant,2023-01-11,User01,-5.3,0.0,1,-26,4.5,-0.8
+PROJ-2024-RARE,SMPL00121,PMS2,c.1086A>T,p.Ser362Gln,S,Q,362,Pathogenic,Pathogenic,0.833,synonymous variant,2025-03-31,User05,-2.7,0.0,0,41,-0.8,-3.5
+PROJ-2024-CARD,SMPL00122,RAD51C,c.2152G>C,p.Tyr718Cys,Y,C,718,Likely benign,Benign,0.176,missense variant,2025-11-11,User05,3.8,0.0,-1,-60,-1.3,2.5
+PROJ-2024-BRCA,SMPL00123,STK11,c.8283A>G,p.Tyr2761Gly,Y,G,2761,Pathogenic,Pathogenic,0.852,frameshift variant,2024-12-24,User04,0.9,0.0,-1,-106,-1.3,-0.4
+PROJ-2024-BRCA,SMPL00124,LMNA,c.6363G>G,p.Trp2121His,W,H,2121,Pathogenic,Pathogenic,0.927,missense variant,2024-07-20,User02,-2.3,0.1,1,-49,-0.9,-3.2
+PROJ-2025-ONCO,SMPL00125,MUTYH,c.7063A>A,p.Arg2355Pro,R,P,2355,Pathogenic,Pathogenic,0.832,missense variant,2024-11-27,User01,2.9,-1.0,-1,-59,-4.5,-1.6
+PROJ-2025-ONCO,SMPL00126,ARSA,c.7063T>C,p.Lys2355Trp,K,W,2355,Uncertain significance,Benign,0.255,frameshift variant,2025-07-28,User04,3.0,-1.0,-1,58,-3.9,-0.9
+PROJ-2024-CARD,SMPL00127,BRCA2,c.3169C>G,p.Ser1057Glu,S,E,1057,Pathogenic,Pathogenic,0.857,missense variant,2024-12-24,User05,-2.7,-1.0,0,42,-0.8,-3.5
+PROJ-2024-RARE,SMPL00128,BRCA1,c.3531C>T,p.Lys1177Ile,K,I,1177,Pathogenic,Pathogenic,0.86,missense variant,2024-03-23,User05,8.4,-1.0,-1,-15,-3.9,4.5
+PROJ-2024-CARD,SMPL00129,CDH1,c.6131C>C,p.Gly2044Ile,G,I,2044,Likely pathogenic,Pathogenic,0.827,missense variant,2024-05-26,User05,4.9,0.0,0,56,-0.4,4.5
+PROJ-2025-ONCO,SMPL00130,MYH7,c.1474A>A,p.Phe492Glu,F,E,492,Pathogenic,Pathogenic,0.915,splice site variant,2025-01-30,User05,-6.3,-1.0,1,-18,2.8,-3.5
+PROJ-2025-META,SMPL00131,BARD1,c.3377T>C,p.Ser1126Tyr,S,Y,1126,Likely benign,Benign,0.097,frameshift variant,2023-09-20,User01,-0.5,0.0,0,76,-0.8,-1.3
+PROJ-2024-CARD,SMPL00132,KCNQ1,c.401A>T,p.Ser134Trp,S,W,134,Benign,Benign,0.148,missense variant,2023-01-18,User01,-0.1,0.0,-1,99,-0.8,-0.9
+PROJ-2024-RARE,SMPL00133,PTEN,c.1239G>C,p.Pro413Tyr,P,Y,413,Uncertain significance,Benign,0.152,missense variant,2024-12-03,User03,0.3,0.0,1,66,-1.6,-1.3
+PROJ-2024-RARE,SMPL00134,APC,c.2588T>G,p.Ser863Gln,S,Q,863,Likely benign,Benign,0.257,missense variant,2023-09-26,User05,-2.7,0.0,0,41,-0.8,-3.5
+PROJ-2025-ONCO,SMPL00135,STK11,c.2898C>C,p.Glu966Leu,E,L,966,Benign,Benign,0.174,missense variant,2023-01-20,User02,7.3,1.0,-1,-16,-3.5,3.8
+PROJ-2024-RARE,SMPL00136,RYR2,c.7751G>G,p.Ser2584Phe,S,F,2584,Benign,Benign,0.206,nonsense variant,2023-04-08,User04,3.6,0.0,-1,60,-0.8,2.8
+PROJ-2024-BRCA,SMPL00137,MLH1,c.2648G>G,p.Gly883Cys,G,C,883,Uncertain significance,Benign,0.188,missense variant,2024-06-11,User03,2.9,0.0,0,46,-0.4,2.5
+PROJ-2025-META,SMPL00138,BRCA2,c.4315C>G,p.Gln1439Glu,Q,E,1439,Benign,Benign,0.102,missense variant,2025-11-11,User04,0.0,-1.0,0,1,-3.5,-3.5
+PROJ-2024-CARD,SMPL00139,CFTR,c.7542G>T,p.Asp2514Gln,D,Q,2514,Uncertain significance,Benign,0.184,nonsense variant,2025-04-08,User01,0.0,1.0,0,13,-3.5,-3.5
+PROJ-2024-RARE,SMPL00140,CHEK2,c.2803G>T,p.Gly935Asn,G,N,935,Uncertain significance,Benign,0.138,missense variant,2025-06-30,User03,-3.1,0.0,1,57,-0.4,-3.5
+PROJ-2024-CARD,SMPL00141,CFTR,c.2260G>A,p.Gln754Gly,Q,G,754,Pathogenic,Pathogenic,0.805,missense variant,2025-03-24,User01,3.1,0.0,-1,-71,-3.5,-0.4
+PROJ-2025-ONCO,SMPL00142,MLH1,c.6739A>A,p.Asp2247Thr,D,T,2247,Pathogenic,Pathogenic,0.785,missense variant,2023-11-15,User01,2.8,1.0,0,-14,-3.5,-0.7
+PROJ-2024-CARD,SMPL00143,SCN5A,c.3042C>A,p.Leu1014Ile,L,I,1014,Uncertain significance,Benign,0.177,missense variant,2024-12-31,User03,0.7,0.0,0,0,3.8,4.5
+PROJ-2025-META,SMPL00144,GBA,c.3348T>T,p.Arg1116Trp,R,W,1116,Benign,Benign,0.178,missense variant,2025-12-29,User03,3.6,-1.0,-1,30,-4.5,-0.9
+PROJ-2024-RARE,SMPL00145,MYH7,c.2792G>C,p.Ser931Trp,S,W,931,Pathogenic,Pathogenic,0.868,missense variant,2023-01-01,User05,-0.1,0.0,-1,99,-0.8,-0.9
+PROJ-2025-ONCO,SMPL00146,MSH6,c.5765G>A,p.Asn1922Leu,N,L,1922,Benign,Benign,0.043,frameshift variant,2024-08-22,User05,7.3,0.0,-1,-1,-3.5,3.8
+PROJ-2025-META,SMPL00147,STK11,c.4592T>C,p.Ala1531Trp,A,W,1531,Likely pathogenic,Pathogenic,0.862,missense variant,2025-03-09,User04,-2.7,0.0,0,115,1.8,-0.9
+PROJ-2025-META,SMPL00148,STK11,c.5188G>G,p.Lys1730Asp,K,D,1730,Likely pathogenic,Pathogenic,0.883,nonsense variant,2025-12-25,User03,0.4,-2.0,0,-13,-3.9,-3.5
+PROJ-2025-ONCO,SMPL00149,RYR2,c.2242T>G,p.His748Asp,H,D,748,Likely pathogenic,Pathogenic,0.838,frameshift variant,2025-10-04,User02,-0.3,-1.1,0,-22,-3.2,-3.5
+PROJ-2024-BRCA,SMPL00150,BARD1,c.611G>C,p.Ala204Gly,A,G,204,Benign,Benign,0.047,frameshift variant,2023-01-17,User02,-2.2,0.0,0,-14,1.8,-0.4
+PROJ-2024-RARE,SMPL00151,CHEK2,c.6065G>T,p.Phe2022Ala,F,A,2022,Likely pathogenic,Pathogenic,0.848,frameshift variant,2023-03-06,User03,-1.0,0.0,0,-76,2.8,1.8
+PROJ-2025-ONCO,SMPL00152,CHEK2,c.3276C>G,p.Phe1092Cys,F,C,1092,Likely benign,Benign,0.062,frameshift variant,2023-01-26,User01,-0.3,0.0,0,-44,2.8,2.5
+PROJ-2024-BRCA,SMPL00153,SMAD4,c.3037C>T,p.Pro1013Ser,P,S,1013,Pathogenic,Pathogenic,0.82,missense variant,2024-10-01,User03,0.8,0.0,1,-10,-1.6,-0.8
+PROJ-2024-RARE,SMPL00154,EPCAM,c.6402G>A,p.Cys2134Trp,C,W,2134,Pathogenic,Pathogenic,0.831,splice site variant,2024-03-22,User01,-3.4,0.0,0,83,2.5,-0.9
+PROJ-2025-META,SMPL00155,SMAD4,c.186T>C,p.Gln62Met,Q,M,62,Likely pathogenic,Pathogenic,0.939,missense variant,2023-03-28,User05,5.4,0.0,-1,3,-3.5,1.9
+PROJ-2025-ONCO,SMPL00156,GBA,c.4566G>A,p.Tyr1522Phe,Y,F,1522,Pathogenic,Pathogenic,0.83,missense variant,2023-11-12,User05,4.1,0.0,-1,-16,-1.3,2.8
+PROJ-2024-RARE,SMPL00157,MLH1,c.2861C>A,p.Phe954Thr,F,T,954,Uncertain significance,Benign,0.344,frameshift variant,2025-01-03,User02,-3.5,0.0,1,-46,2.8,-0.7
+PROJ-2025-META,SMPL00158,BMPR1A,c.8683T>C,p.Cys2895Thr,C,T,2895,Likely benign,Benign,0.213,nonsense variant,2024-12-13,User03,-3.2,0.0,1,-2,2.5,-0.7
+PROJ-2025-ONCO,SMPL00159,HEXA,c.1970G>G,p.Lys657Trp,K,W,657,Pathogenic,Pathogenic,0.886,missense variant,2025-11-02,User04,3.0,-1.0,-1,58,-3.9,-0.9
+PROJ-2024-BRCA,SMPL00160,APC,c.7621T>C,p.Ala2541Pro,A,P,2541,Likely pathogenic,Pathogenic,0.844,missense variant,2025-10-15,User05,-3.4,0.0,0,26,1.8,-1.6
+PROJ-2024-BRCA,SMPL00161,PMS2,c.3966A>A,p.Tyr1322Leu,Y,L,1322,Likely benign,Benign,0.239,splice site variant,2023-09-23,User02,5.1,0.0,-1,-50,-1.3,3.8
+PROJ-2025-META,SMPL00162,TP53,c.5965T>T,p.His1989Glu,H,E,1989,Likely pathogenic,Pathogenic,0.8,missense variant,2024-06-08,User01,-0.3,-1.1,0,-8,-3.2,-3.5
+PROJ-2024-BRCA,SMPL00163,MYBPC3,c.161A>G,p.Ile54Asp,I,D,54,Likely pathogenic,Pathogenic,0.911,nonsense variant,2025-05-01,User03,-8.0,-1.0,1,2,4.5,-3.5
+PROJ-2024-RARE,SMPL00164,ATM,c.6501C>A,p.Tyr2167Lys,Y,K,2167,Pathogenic,Pathogenic,0.927,missense variant,2024-04-18,User05,-2.6,1.0,0,-35,-1.3,-3.9
+PROJ-2024-CARD,SMPL00165,SCN5A,c.6466T>A,p.His2156Ile,H,I,2156,Likely pathogenic,Pathogenic,0.894,frameshift variant,2025-01-03,User04,7.7,-0.1,-1,-24,-3.2,4.5
+PROJ-2024-RARE,SMPL00166,KCNQ1,c.2215C>T,p.Glu739His,E,H,739,Benign,Benign,0.164,synonymous variant,2024-10-07,User05,0.3,1.1,0,8,-3.5,-3.2
+PROJ-2024-RARE,SMPL00167,BARD1,c.7780C>C,p.Asn2594Arg,N,R,2594,Likely benign,Benign,0.296,missense variant,2024-06-04,User03,-1.0,1.0,0,42,-3.5,-4.5
+PROJ-2025-META,SMPL00168,CFTR,c.3C>G,p.Arg1Pro,R,P,1,Pathogenic,Pathogenic,0.977,missense variant,2024-03-30,User02,2.9,-1.0,-1,-59,-4.5,-1.6
+PROJ-2025-META,SMPL00169,BARD1,c.6804A>A,p.Ala2268Leu,A,L,2268,Benign,Benign,0.212,missense variant,2023-11-16,User02,2.0,0.0,0,42,1.8,3.8
+PROJ-2024-RARE,SMPL00170,BMPR1A,c.3072T>C,p.Asn1024Tyr,N,Y,1024,Likely pathogenic,Pathogenic,0.831,frameshift variant,2024-10-26,User04,2.2,0.0,0,49,-3.5,-1.3
+PROJ-2024-BRCA,SMPL00171,APC,c.1171T>A,p.Ser391Tyr,S,Y,391,Benign,Benign,0.239,frameshift variant,2024-11-15,User03,-0.5,0.0,0,76,-0.8,-1.3
+PROJ-2025-ONCO,SMPL00172,KCNQ1,c.2787G>A,p.Gln929Glu,Q,E,929,Benign,Benign,0.328,missense variant,2023-11-03,User03,0.0,-1.0,0,1,-3.5,-3.5
+PROJ-2025-META,SMPL00173,ARSA,c.619A>C,p.Ile207Phe,I,F,207,Likely benign,Benign,0.341,missense variant,2025-03-18,User02,-1.7,0.0,0,34,4.5,2.8
+PROJ-2025-META,SMPL00174,MSH6,c.5849G>A,p.Met1950Asp,M,D,1950,Benign,Benign,0.271,missense variant,2025-06-08,User02,-5.4,-1.0,1,-16,1.9,-3.5
+PROJ-2025-META,SMPL00175,MSH6,c.2436C>C,p.Ser812Trp,S,W,812,Likely benign,Benign,0.163,missense variant,2025-05-30,User03,-0.1,0.0,-1,99,-0.8,-0.9
+PROJ-2024-RARE,SMPL00176,CHEK2,c.5204A>G,p.Glu1735Arg,E,R,1735,Uncertain significance,Benign,0.148,missense variant,2024-12-17,User05,-1.0,2.0,0,27,-3.5,-4.5
+PROJ-2024-CARD,SMPL00177,CFTR,c.5415G>C,p.Tyr1805Phe,Y,F,1805,Pathogenic,Pathogenic,0.965,frameshift variant,2023-06-25,User01,4.1,0.0,-1,-16,-1.3,2.8
+PROJ-2024-BRCA,SMPL00178,ATM,c.3536T>T,p.Ile1179Phe,I,F,1179,Pathogenic,Pathogenic,0.849,missense variant,2024-03-04,User05,-1.7,0.0,0,34,4.5,2.8
+PROJ-2025-META,SMPL00179,PTEN,c.6430C>A,p.His2144Trp,H,W,2144,Uncertain significance,Benign,0.21,missense variant,2025-12-14,User01,2.3,-0.1,-1,49,-3.2,-0.9
+PROJ-2025-META,SMPL00180,BMPR1A,c.3491A>T,p.Gly1164Cys,G,C,1164,Likely pathogenic,Pathogenic,0.938,nonsense variant,2023-01-18,User01,2.9,0.0,0,46,-0.4,2.5
+PROJ-2025-ONCO,SMPL00181,SCN5A,c.1326T>A,p.Lys442Pro,K,P,442,Pathogenic,Pathogenic,0.838,synonymous variant,2025-09-19,User05,2.3,-1.0,-1,-31,-3.9,-1.6
+PROJ-2024-BRCA,SMPL00182,CHEK2,c.6153C>G,p.Gly2051Ile,G,I,2051,Likely benign,Benign,0.214,missense variant,2025-03-16,User02,4.9,0.0,0,56,-0.4,4.5
+PROJ-2025-META,SMPL00183,BRCA2,c.4367A>G,p.Asn1456Pro,N,P,1456,Uncertain significance,Benign,0.113,splice site variant,2023-03-02,User05,1.9,0.0,-1,-17,-3.5,-1.6
+PROJ-2024-BRCA,SMPL00184,CDH1,c.4198T>C,p.Ile1400Phe,I,F,1400,Likely benign,Benign,0.244,missense variant,2023-11-09,User04,-1.7,0.0,0,34,4.5,2.8
+PROJ-2024-CARD,SMPL00185,RAD51D,c.5518C>C,p.Tyr1840Met,Y,M,1840,Benign,Benign,0.081,missense variant,2025-12-08,User02,3.2,0.0,-1,-32,-1.3,1.9
+PROJ-2025-META,SMPL00186,KCNQ1,c.1942A>C,p.Phe648Tyr,F,Y,648,Uncertain significance,Benign,0.061,missense variant,2023-10-26,User01,-4.1,0.0,1,16,2.8,-1.3
+PROJ-2024-RARE,SMPL00187,BARD1,c.3729C>A,p.Gln1243Arg,Q,R,1243,Likely benign,Benign,0.271,missense variant,2023-02-23,User05,-1.0,1.0,0,28,-3.5,-4.5
+PROJ-2024-CARD,SMPL00188,CDH1,c.7525A>G,p.Tyr2509Trp,Y,W,2509,Likely pathogenic,Pathogenic,0.899,missense variant,2025-09-03,User02,0.4,0.0,-1,23,-1.3,-0.9
+PROJ-2025-ONCO,SMPL00189,ARSA,c.8750T>C,p.Tyr2917Ser,Y,S,2917,Uncertain significance,Benign,0.097,missense variant,2024-04-08,User01,0.5,0.0,0,-76,-1.3,-0.8
+PROJ-2024-CARD,SMPL00190,RYR2,c.5076A>C,p.Ala1692Leu,A,L,1692,Likely pathogenic,Pathogenic,0.928,synonymous variant,2025-06-18,User05,2.0,0.0,0,42,1.8,3.8
+PROJ-2024-BRCA,SMPL00191,SMPD1,c.3031T>G,p.Met1011Ser,M,S,1011,Likely benign,Benign,0.166,missense variant,2025-12-11,User01,-2.7,0.0,1,-44,1.9,-0.8
+PROJ-2025-ONCO,SMPL00192,MLH1,c.520A>T,p.Arg174Ser,R,S,174,Likely pathogenic,Pathogenic,0.884,missense variant,2023-04-11,User02,3.7,-1.0,0,-69,-4.5,-0.8
+PROJ-2025-ONCO,SMPL00193,RAD51C,c.3743A>C,p.Arg1248Pro,R,P,1248,Uncertain significance,Benign,0.183,missense variant,2025-07-14,User01,2.9,-1.0,-1,-59,-4.5,-1.6
+PROJ-2025-ONCO,SMPL00194,ARSA,c.7193T>A,p.Glu2398His,E,H,2398,Benign,Benign,0.082,missense variant,2024-02-18,User04,0.3,1.1,0,8,-3.5,-3.2
+PROJ-2024-BRCA,SMPL00195,CHEK2,c.8502A>T,p.Lys2834Asn,K,N,2834,Likely pathogenic,Pathogenic,0.924,nonsense variant,2023-06-24,User05,0.4,-1.0,0,-14,-3.9,-3.5
+PROJ-2024-CARD,SMPL00196,SCN5A,c.4655C>C,p.Thr1552Gly,T,G,1552,Benign,Benign,0.158,splice site variant,2024-01-02,User01,0.3,0.0,-1,-44,-0.7,-0.4
+PROJ-2024-CARD,SMPL00197,RYR2,c.8973C>C,p.Leu2991Met,L,M,2991,Likely benign,Benign,0.13,missense variant,2024-06-02,User01,-1.9,0.0,0,18,3.8,1.9
+PROJ-2025-ONCO,SMPL00198,HEXA,c.6681C>T,p.Ser2227Thr,S,T,2227,Pathogenic,Pathogenic,0.902,missense variant,2025-06-23,User01,0.1,0.0,0,14,-0.8,-0.7
+PROJ-2024-CARD,SMPL00199,BRCA1,c.3420C>C,p.Ile1140Trp,I,W,1140,Benign,Benign,0.235,missense variant,2024-12-15,User01,-5.4,0.0,0,73,4.5,-0.9
+PROJ-2024-BRCA,SMPL00200,PMS2,c.7416A>T,p.Cys2472Tyr,C,Y,2472,Uncertain significance,Benign,0.143,synonymous variant,2023-11-27,User03,-3.8,0.0,1,60,2.5,-1.3
+PROJ-2024-RARE,SMPL00201,APC,c.4427G>T,p.Arg1476Tyr,R,Y,1476,Pathogenic,Pathogenic,0.799,splice site variant,2025-05-25,User05,3.2,-1.0,0,7,-4.5,-1.3
+PROJ-2024-RARE,SMPL00202,PALB2,c.1655T>C,p.Leu552Thr,L,T,552,Pathogenic,Pathogenic,0.919,frameshift variant,2023-04-30,User01,-4.5,0.0,1,-12,3.8,-0.7
+PROJ-2024-RARE,SMPL00203,CHEK2,c.5248G>C,p.Ser1750Leu,S,L,1750,Benign,Benign,0.303,nonsense variant,2025-10-13,User05,4.6,0.0,-1,26,-0.8,3.8
+PROJ-2024-CARD,SMPL00204,SMPD1,c.7491A>A,p.Ser2497Gly,S,G,2497,Likely pathogenic,Pathogenic,0.922,missense variant,2023-08-30,User02,0.4,0.0,-1,-30,-0.8,-0.4
+PROJ-2024-CARD,SMPL00205,RYR2,c.4104C>G,p.Gln1368Cys,Q,C,1368,Uncertain significance,Benign,0.214,missense variant,2023-05-19,User03,6.0,0.0,-1,-25,-3.5,2.5
+PROJ-2024-RARE,SMPL00206,RAD51D,c.3980T>A,p.Thr1327Trp,T,W,1327,Pathogenic,Pathogenic,0.803,splice site variant,2024-02-02,User03,-0.2,0.0,-1,85,-0.7,-0.9
+PROJ-2025-ONCO,SMPL00207,NBN,c.436G>T,p.Ser146Thr,S,T,146,Likely pathogenic,Pathogenic,0.876,frameshift variant,2025-04-27,User01,0.1,0.0,0,14,-0.8,-0.7
+PROJ-2025-META,SMPL00208,RAD51D,c.6823G>G,p.Trp2275Met,W,M,2275,Benign,Benign,0.046,missense variant,2023-11-02,User03,2.8,0.0,0,-55,-0.9,1.9
+PROJ-2025-META,SMPL00209,BRCA2,c.7699T>C,p.Met2567Gln,M,Q,2567,Benign,Benign,0.301,nonsense variant,2024-09-23,User03,-5.4,0.0,1,-3,1.9,-3.5
+PROJ-2024-RARE,SMPL00210,TP53,c.1067G>C,p.Lys356Arg,K,R,356,Likely benign,Benign,0.312,missense variant,2023-12-25,User01,-0.6,0.0,0,28,-3.9,-4.5
+PROJ-2025-ONCO,SMPL00211,MYBPC3,c.1138C>C,p.Cys380Ile,C,I,380,Likely benign,Benign,0.197,missense variant,2025-09-17,User05,2.0,0.0,0,10,2.5,4.5
+PROJ-2024-CARD,SMPL00212,RAD51D,c.1209A>T,p.Met403Phe,M,F,403,Benign,Benign,0.25,missense variant,2025-12-05,User01,0.9,0.0,0,16,1.9,2.8
+PROJ-2024-RARE,SMPL00213,BRCA1,c.8444A>A,p.Leu2815Cys,L,C,2815,Benign,Benign,0.31,missense variant,2024-10-01,User01,-1.3,0.0,0,-10,3.8,2.5
+PROJ-2025-META,SMPL00214,RAD51D,c.2465T>A,p.His822Asn,H,N,822,Likely pathogenic,Pathogenic,0.837,missense variant,2023-11-19,User03,-0.3,-0.1,0,-23,-3.2,-3.5
+PROJ-2024-RARE,SMPL00215,MSH2,c.6316G>G,p.Ala2106Trp,A,W,2106,Pathogenic,Pathogenic,0.821,missense variant,2024-08-03,User05,-2.7,0.0,0,115,1.8,-0.9
+PROJ-2025-META,SMPL00216,SMAD4,c.3827A>C,p.Gly1276Asp,G,D,1276,Benign,Benign,0.317,missense variant,2023-04-14,User01,-3.1,-1.0,1,58,-0.4,-3.5
+PROJ-2025-META,SMPL00217,SCN5A,c.5239T>G,p.Cys1747Glu,C,E,1747,Likely benign,Benign,0.095,missense variant,2024-02-10,User05,-6.0,-1.0,1,26,2.5,-3.5
+PROJ-2025-ONCO,SMPL00218,CHEK2,c.1620T>G,p.Arg540Tyr,R,Y,540,Pathogenic,Pathogenic,0.943,frameshift variant,2025-08-11,User04,3.2,-1.0,0,7,-4.5,-1.3
+PROJ-2025-ONCO,SMPL00219,STK11,c.7581G>G,p.Ile2527Phe,I,F,2527,Uncertain significance,Benign,0.323,missense variant,2023-03-03,User01,-1.7,0.0,0,34,4.5,2.8
+PROJ-2024-RARE,SMPL00220,GBA,c.5882C>A,p.Glu1961Pro,E,P,1961,Likely benign,Benign,0.302,missense variant,2023-08-08,User03,1.9,1.0,-1,-32,-3.5,-1.6
+PROJ-2024-CARD,SMPL00221,PALB2,c.5665C>C,p.Leu1889Trp,L,W,1889,Likely benign,Benign,0.223,synonymous variant,2025-02-25,User01,-4.7,0.0,0,73,3.8,-0.9
+PROJ-2024-RARE,SMPL00222,NBN,c.5296C>C,p.His1766Tyr,H,Y,1766,Likely benign,Benign,0.216,nonsense variant,2023-06-09,User05,1.9,-0.1,0,26,-3.2,-1.3
+PROJ-2024-BRCA,SMPL00223,SMPD1,c.7325C>G,p.Glu2442Tyr,E,Y,2442,Likely benign,Benign,0.141,synonymous variant,2023-05-23,User05,2.2,1.0,0,34,-3.5,-1.3
+PROJ-2024-BRCA,SMPL00224,MLH1,c.4026C>C,p.Tyr1342Pro,Y,P,1342,Likely benign,Benign,0.24,splice site variant,2023-01-01,User02,-0.3,0.0,-1,-66,-1.3,-1.6
+PROJ-2025-ONCO,SMPL00225,PMS2,c.3582C>G,p.Arg1194Trp,R,W,1194,Likely benign,Benign,0.231,missense variant,2024-09-15,User04,3.6,-1.0,-1,30,-4.5,-0.9
+PROJ-2025-ONCO,SMPL00226,MYH7,c.102G>A,p.Asp34Tyr,D,Y,34,Benign,Benign,0.346,missense variant,2023-04-19,User01,2.2,1.0,0,48,-3.5,-1.3
+PROJ-2025-META,SMPL00227,MYH7,c.383G>T,p.Glu128Met,E,M,128,Likely pathogenic,Pathogenic,0.866,missense variant,2025-06-10,User05,5.4,1.0,-1,2,-3.5,1.9
+PROJ-2024-RARE,SMPL00228,PTEN,c.1709C>G,p.Gly570Thr,G,T,570,Likely pathogenic,Pathogenic,0.891,synonymous variant,2023-09-15,User02,-0.3,0.0,1,44,-0.4,-0.7
+PROJ-2024-CARD,SMPL00229,BRCA1,c.1770C>T,p.Asp590Ala,D,A,590,Likely benign,Benign,0.244,splice site variant,2025-05-21,User05,5.3,1.0,-1,-44,-3.5,1.8
+PROJ-2025-ONCO,SMPL00230,APC,c.5213C>C,p.Arg1738Val,R,V,1738,Benign,Benign,0.294,missense variant,2023-01-16,User05,8.7,-1.0,-1,-57,-4.5,4.2
+PROJ-2025-META,SMPL00231,SMPD1,c.3308A>A,p.Ile1103Val,I,V,1103,Likely benign,Benign,0.327,nonsense variant,2025-01-24,User01,-0.3,0.0,0,-14,4.5,4.2
+PROJ-2024-RARE,SMPL00232,GBA,c.8972A>A,p.Asp2991Gly,D,G,2991,Benign,Benign,0.345,missense variant,2023-06-09,User05,3.1,1.0,-1,-58,-3.5,-0.4
+PROJ-2025-ONCO,SMPL00233,RAD51D,c.4223T>G,p.Tyr1408Cys,Y,C,1408,Benign,Benign,0.281,missense variant,2024-08-26,User03,3.8,0.0,-1,-60,-1.3,2.5
+PROJ-2025-ONCO,SMPL00234,EPCAM,c.8932C>A,p.Cys2978Met,C,M,2978,Benign,Benign,0.121,nonsense variant,2024-08-20,User05,-0.6,0.0,0,28,2.5,1.9
+PROJ-2024-RARE,SMPL00235,BRCA2,c.1013C>G,p.Leu338Thr,L,T,338,Likely pathogenic,Pathogenic,0.881,missense variant,2024-06-10,User01,-4.5,0.0,1,-12,3.8,-0.7
+PROJ-2024-RARE,SMPL00236,MSH2,c.7272G>C,p.Tyr2424Gly,Y,G,2424,Likely pathogenic,Pathogenic,0.912,missense variant,2025-12-16,User01,0.9,0.0,-1,-106,-1.3,-0.4
+PROJ-2025-ONCO,SMPL00237,NBN,c.7319C>T,p.Asp2440Gly,D,G,2440,Likely pathogenic,Pathogenic,0.948,frameshift variant,2023-12-09,User02,3.1,1.0,-1,-58,-3.5,-0.4
+PROJ-2025-ONCO,SMPL00238,MYH7,c.1427G>T,p.Cys476Leu,C,L,476,Pathogenic,Pathogenic,0.814,frameshift variant,2025-12-26,User02,1.3,0.0,0,10,2.5,3.8
+PROJ-2025-ONCO,SMPL00239,SCN5A,c.3228G>T,p.Pro1076Thr,P,T,1076,Likely pathogenic,Pathogenic,0.886,missense variant,2024-10-08,User05,0.9,0.0,1,4,-1.6,-0.7
+PROJ-2025-ONCO,SMPL00240,TP53,c.7831G>G,p.Glu2611Trp,E,W,2611,Uncertain significance,Benign,0.336,missense variant,2023-07-21,User03,2.6,1.0,-1,57,-3.5,-0.9
+PROJ-2025-META,SMPL00241,LMNA,c.8258C>G,p.Arg2753Ile,R,I,2753,Benign,Benign,0.279,missense variant,2023-01-18,User01,9.0,-1.0,-1,-43,-4.5,4.5
+PROJ-2024-RARE,SMPL00242,BRCA1,c.6456G>G,p.Gln2152Glu,Q,E,2152,Pathogenic,Pathogenic,0.917,missense variant,2023-02-18,User05,0.0,-1.0,0,1,-3.5,-3.5
+PROJ-2024-BRCA,SMPL00243,CHEK2,c.7368C>T,p.Cys2456Ile,C,I,2456,Pathogenic,Pathogenic,0.922,nonsense variant,2024-01-14,User01,2.0,0.0,0,10,2.5,4.5
+PROJ-2024-RARE,SMPL00244,APC,c.5738G>G,p.Lys1913Met,K,M,1913,Pathogenic,Pathogenic,0.908,missense variant,2023-06-01,User03,5.8,-1.0,-1,3,-3.9,1.9
+PROJ-2024-RARE,SMPL00245,ATM,c.4089T>A,p.Pro1363Gln,P,Q,1363,Pathogenic,Pathogenic,0.832,missense variant,2024-02-15,User05,-1.9,0.0,1,31,-1.6,-3.5
+PROJ-2025-ONCO,SMPL00246,LMNA,c.1335A>T,p.Gly445Thr,G,T,445,Likely pathogenic,Pathogenic,0.888,frameshift variant,2023-07-31,User01,-0.3,0.0,1,44,-0.4,-0.7
+PROJ-2024-BRCA,SMPL00247,PALB2,c.8942C>A,p.Asp2981Tyr,D,Y,2981,Uncertain significance,Benign,0.281,synonymous variant,2025-03-10,User03,2.2,1.0,0,48,-3.5,-1.3
+PROJ-2025-ONCO,SMPL00248,PMS2,c.7061T>T,p.Met2354Gln,M,Q,2354,Pathogenic,Pathogenic,0.883,splice site variant,2023-05-24,User05,-5.4,0.0,1,-3,1.9,-3.5
+PROJ-2025-META,SMPL00249,STK11,c.8471G>G,p.Ala2824Gln,A,Q,2824,Likely benign,Benign,0.078,missense variant,2023-07-05,User03,-5.3,0.0,1,57,1.8,-3.5
+PROJ-2024-BRCA,SMPL00250,NBN,c.3563C>G,p.Asp1188Ser,D,S,1188,Likely pathogenic,Pathogenic,0.815,frameshift variant,2023-08-07,User03,2.7,1.0,0,-28,-3.5,-0.8
+PROJ-2024-BRCA,SMPL00251,SMPD1,c.2329C>T,p.Asp777Ser,D,S,777,Likely pathogenic,Pathogenic,0.787,missense variant,2024-09-22,User04,2.7,1.0,0,-28,-3.5,-0.8
+PROJ-2024-BRCA,SMPL00252,CFTR,c.4169A>C,p.Ala1390Asp,A,D,1390,Pathogenic,Pathogenic,0.848,frameshift variant,2025-12-07,User04,-5.3,-1.0,1,44,1.8,-3.5
+PROJ-2025-ONCO,SMPL00253,PMS2,c.886A>T,p.Trp296Ile,W,I,296,Pathogenic,Pathogenic,0.927,synonymous variant,2023-04-04,User02,5.4,0.0,0,-73,-0.9,4.5
+PROJ-2024-BRCA,SMPL00254,MSH6,c.7775C>A,p.Ala2592His,A,H,2592,Pathogenic,Pathogenic,0.961,frameshift variant,2023-08-06,User01,-5.0,0.1,1,66,1.8,-3.2
+PROJ-2025-ONCO,SMPL00255,SMPD1,c.776A>C,p.Tyr259Ile,Y,I,259,Likely pathogenic,Pathogenic,0.865,missense variant,2024-03-12,User01,5.8,0.0,-1,-50,-1.3,4.5
+PROJ-2025-ONCO,SMPL00256,APC,c.1485G>C,p.Met495Asp,M,D,495,Uncertain significance,Benign,0.084,missense variant,2023-03-25,User02,-5.4,-1.0,1,-16,1.9,-3.5
+PROJ-2024-BRCA,SMPL00257,MLH1,c.1941A>C,p.Tyr647Pro,Y,P,647,Pathogenic,Pathogenic,0.956,synonymous variant,2024-08-04,User04,-0.3,0.0,-1,-66,-1.3,-1.6
+PROJ-2025-ONCO,SMPL00258,GBA,c.1761C>A,p.Phe587Ile,F,I,587,Uncertain significance,Benign,0.202,nonsense variant,2025-10-20,User05,1.7,0.0,0,-34,2.8,4.5
+PROJ-2024-CARD,SMPL00259,CHEK2,c.5148A>G,p.Leu1716Pro,L,P,1716,Pathogenic,Pathogenic,0.892,splice site variant,2025-11-05,User02,-5.4,0.0,0,-16,3.8,-1.6
+PROJ-2024-CARD,SMPL00260,HEXA,c.652T>T,p.His218Leu,H,L,218,Likely pathogenic,Pathogenic,0.803,missense variant,2023-03-30,User01,7.0,-0.1,-1,-24,-3.2,3.8
+PROJ-2025-ONCO,SMPL00261,MYBPC3,c.5343A>A,p.Leu1781His,L,H,1781,Uncertain significance,Benign,0.144,synonymous variant,2023-12-27,User02,-7.0,0.1,1,24,3.8,-3.2
+PROJ-2025-ONCO,SMPL00262,BRCA2,c.1426G>T,p.Ser476Val,S,V,476,Pathogenic,Pathogenic,0.959,missense variant,2024-10-29,User02,5.0,0.0,-1,12,-0.8,4.2
+PROJ-2024-CARD,SMPL00263,MSH2,c.1205C>A,p.Met402Ile,M,I,402,Likely pathogenic,Pathogenic,0.928,missense variant,2025-09-19,User01,2.6,0.0,0,-18,1.9,4.5
+PROJ-2024-RARE,SMPL00264,KCNQ1,c.7491T>C,p.Phe2497Ile,F,I,2497,Likely benign,Benign,0.095,nonsense variant,2024-07-06,User02,1.7,0.0,0,-34,2.8,4.5
+PROJ-2024-CARD,SMPL00265,NBN,c.8508T>T,p.Phe2836Cys,F,C,2836,Benign,Benign,0.058,missense variant,2024-12-04,User02,-0.3,0.0,0,-44,2.8,2.5
+PROJ-2025-META,SMPL00266,RAD51C,c.7840C>A,p.Tyr2614Gly,Y,G,2614,Benign,Benign,0.321,missense variant,2025-12-04,User04,0.9,0.0,-1,-106,-1.3,-0.4
+PROJ-2025-ONCO,SMPL00267,PTEN,c.5686C>C,p.Trp1896Ser,W,S,1896,Uncertain significance,Benign,0.044,missense variant,2024-03-31,User05,0.1,0.0,1,-99,-0.9,-0.8
+PROJ-2025-ONCO,SMPL00268,PMS2,c.5134A>T,p.Trp1712Ala,W,A,1712,Pathogenic,Pathogenic,0.788,missense variant,2025-09-08,User01,2.7,0.0,0,-115,-0.9,1.8
+PROJ-2025-ONCO,SMPL00269,CFTR,c.1023C>G,p.Ser341Ile,S,I,341,Benign,Benign,0.273,missense variant,2023-07-05,User01,5.3,0.0,-1,26,-0.8,4.5
+PROJ-2025-META,SMPL00270,GBA,c.8643T>T,p.Leu2881Gly,L,G,2881,Likely benign,Benign,0.306,frameshift variant,2025-04-10,User02,-4.2,0.0,0,-56,3.8,-0.4
+PROJ-2024-RARE,SMPL00271,MYBPC3,c.7708A>G,p.Arg2570Ala,R,A,2570,Pathogenic,Pathogenic,0.857,missense variant,2024-07-06,User05,6.3,-1.0,-1,-85,-4.5,1.8
+PROJ-2024-RARE,SMPL00272,PTEN,c.675A>T,p.Asp225Asn,D,N,225,Benign,Benign,0.333,missense variant,2023-03-25,User03,0.0,1.0,0,-1,-3.5,-3.5
+PROJ-2024-CARD,SMPL00273,MYBPC3,c.8664G>C,p.Gly2888Trp,G,W,2888,Pathogenic,Pathogenic,0.892,missense variant,2025-09-06,User05,-0.5,0.0,0,129,-0.4,-0.9
+PROJ-2025-ONCO,SMPL00274,PTEN,c.4334A>A,p.Ile1445Asn,I,N,1445,Uncertain significance,Benign,0.196,missense variant,2025-07-15,User04,-8.0,0.0,1,1,4.5,-3.5
+PROJ-2025-META,SMPL00275,ARSA,c.5777T>G,p.Thr1926Glu,T,E,1926,Benign,Benign,0.25,frameshift variant,2023-05-15,User02,-2.8,-1.0,0,28,-0.7,-3.5
+PROJ-2024-BRCA,SMPL00276,HEXA,c.4803C>G,p.Asp1601Glu,D,E,1601,Likely pathogenic,Pathogenic,0.838,missense variant,2023-10-31,User04,0.0,0.0,0,14,-3.5,-3.5
+PROJ-2025-META,SMPL00277,PMS2,c.7710T>G,p.His2570Val,H,V,2570,Pathogenic,Pathogenic,0.839,missense variant,2023-02-13,User03,7.4,-0.1,-1,-38,-3.2,4.2
+PROJ-2025-ONCO,SMPL00278,MUTYH,c.2854G>G,p.Asp952Ala,D,A,952,Benign,Benign,0.24,missense variant,2025-12-21,User05,5.3,1.0,-1,-44,-3.5,1.8
+PROJ-2024-RARE,SMPL00279,CFTR,c.6972G>C,p.Arg2324Leu,R,L,2324,Likely pathogenic,Pathogenic,0.96,missense variant,2024-08-13,User01,8.3,-1.0,-1,-43,-4.5,3.8
+PROJ-2024-CARD,SMPL00280,PMS2,c.5602G>C,p.Asn1868Leu,N,L,1868,Likely pathogenic,Pathogenic,0.904,synonymous variant,2023-11-11,User02,7.3,0.0,-1,-1,-3.5,3.8
+PROJ-2024-RARE,SMPL00281,SMAD4,c.3890C>C,p.Glu1297Cys,E,C,1297,Benign,Benign,0.079,nonsense variant,2023-03-13,User03,6.0,1.0,-1,-26,-3.5,2.5
+PROJ-2025-META,SMPL00282,MYH7,c.5510A>A,p.Phe1837Pro,F,P,1837,Benign,Benign,0.342,missense variant,2025-10-19,User02,-4.4,0.0,0,-50,2.8,-1.6
+PROJ-2024-RARE,SMPL00283,HEXA,c.52G>T,p.Met18Phe,M,F,18,Benign,Benign,0.342,splice site variant,2023-10-29,User05,0.9,0.0,0,16,1.9,2.8
+PROJ-2024-CARD,SMPL00284,CFTR,c.8989A>G,p.Met2997Glu,M,E,2997,Likely benign,Benign,0.319,missense variant,2024-03-27,User04,-5.4,-1.0,1,-2,1.9,-3.5
+PROJ-2025-META,SMPL00285,MYH7,c.676C>G,p.Asp226Asn,D,N,226,Benign,Benign,0.239,missense variant,2023-06-21,User05,0.0,1.0,0,-1,-3.5,-3.5
+PROJ-2025-META,SMPL00286,CFTR,c.4846A>G,p.Asp1616Val,D,V,1616,Likely pathogenic,Pathogenic,0.878,missense variant,2025-05-25,User03,7.7,1.0,-1,-16,-3.5,4.2
+PROJ-2025-ONCO,SMPL00287,SCN5A,c.3496A>C,p.Asn1166Ala,N,A,1166,Uncertain significance,Benign,0.149,frameshift variant,2025-06-28,User04,5.3,0.0,-1,-43,-3.5,1.8
+PROJ-2025-ONCO,SMPL00288,CFTR,c.8946A>C,p.Leu2982Gly,L,G,2982,Likely benign,Benign,0.266,missense variant,2025-08-30,User05,-4.2,0.0,0,-56,3.8,-0.4
+PROJ-2024-RARE,SMPL00289,NBN,c.4619C>T,p.Asp1540Tyr,D,Y,1540,Pathogenic,Pathogenic,0.781,frameshift variant,2023-10-08,User02,2.2,1.0,0,48,-3.5,-1.3
+PROJ-2024-RARE,SMPL00290,APC,c.6805G>T,p.Pro2269Leu,P,L,2269,Likely benign,Benign,0.053,nonsense variant,2025-08-07,User02,5.4,0.0,0,16,-1.6,3.8
+PROJ-2025-ONCO,SMPL00291,BRCA2,c.3228G>T,p.Ala1076Gly,A,G,1076,Uncertain significance,Benign,0.336,missense variant,2024-05-16,User01,-2.2,0.0,0,-14,1.8,-0.4
+PROJ-2025-META,SMPL00292,MSH2,c.821T>G,p.Lys274Thr,K,T,274,Benign,Benign,0.271,nonsense variant,2025-09-01,User01,3.2,-1.0,0,-27,-3.9,-0.7
+PROJ-2024-BRCA,SMPL00293,MYBPC3,c.216G>T,p.Thr72Tyr,T,Y,72,Uncertain significance,Benign,0.09,splice site variant,2023-10-05,User03,-0.6,0.0,0,62,-0.7,-1.3
+PROJ-2024-RARE,SMPL00294,EPCAM,c.4440G>G,p.Cys1480Leu,C,L,1480,Likely benign,Benign,0.237,missense variant,2023-06-07,User05,1.3,0.0,0,10,2.5,3.8
+PROJ-2024-RARE,SMPL00295,MUTYH,c.7357G>G,p.Gly2453Glu,G,E,2453,Likely pathogenic,Pathogenic,0.889,frameshift variant,2025-01-12,User01,-3.1,-1.0,1,72,-0.4,-3.5
+PROJ-2025-ONCO,SMPL00296,MYH7,c.1682G>C,p.Phe561Ala,F,A,561,Benign,Benign,0.127,missense variant,2023-11-13,User05,-1.0,0.0,0,-76,2.8,1.8
+PROJ-2025-META,SMPL00297,STK11,c.7537A>T,p.His2513Trp,H,W,2513,Benign,Benign,0.302,missense variant,2023-06-06,User01,2.3,-0.1,-1,49,-3.2,-0.9
+PROJ-2024-CARD,SMPL00298,MSH6,c.4280G>C,p.Ala1427Thr,A,T,1427,Uncertain significance,Benign,0.254,frameshift variant,2023-02-28,User01,-2.5,0.0,1,30,1.8,-0.7
+PROJ-2024-CARD,SMPL00299,STK11,c.8457A>T,p.Phe2819Gly,F,G,2819,Likely pathogenic,Pathogenic,0.841,frameshift variant,2023-08-17,User01,-3.2,0.0,0,-90,2.8,-0.4
+PROJ-2025-META,SMPL00300,BRCA2,c.523A>T,p.Ser175Gln,S,Q,175,Likely pathogenic,Pathogenic,0.802,missense variant,2024-06-02,User01,-2.7,0.0,0,41,-0.8,-3.5
+PROJ-2024-CARD,SMPL00301,PALB2,c.1186C>C,p.Leu396Ala,L,A,396,Pathogenic,Pathogenic,0.964,frameshift variant,2023-03-01,User01,-2.0,0.0,0,-42,3.8,1.8
+PROJ-2025-META,SMPL00302,PMS2,c.4273C>A,p.Lys1425Tyr,K,Y,1425,Uncertain significance,Benign,0.09,missense variant,2023-01-29,User05,2.6,-1.0,0,35,-3.9,-1.3
+PROJ-2024-BRCA,SMPL00303,PTEN,c.2112T>G,p.His704Met,H,M,704,Benign,Benign,0.041,frameshift variant,2024-01-15,User04,5.1,-0.1,-1,-6,-3.2,1.9
+PROJ-2024-CARD,SMPL00304,MLH1,c.4664A>G,p.Gly1555Pro,G,P,1555,Likely benign,Benign,0.106,missense variant,2023-08-14,User05,-1.2,0.0,0,40,-0.4,-1.6
+PROJ-2024-BRCA,SMPL00305,MSH6,c.8661G>T,p.Ser2887Asn,S,N,2887,Uncertain significance,Benign,0.213,missense variant,2024-08-03,User04,-2.7,0.0,0,27,-0.8,-3.5
+PROJ-2025-ONCO,SMPL00306,RAD51D,c.6807A>T,p.Arg2269Ile,R,I,2269,Likely benign,Benign,0.13,synonymous variant,2025-01-22,User02,9.0,-1.0,-1,-43,-4.5,4.5
+PROJ-2024-BRCA,SMPL00307,BRCA1,c.4872C>T,p.Ser1624Glu,S,E,1624,Likely benign,Benign,0.202,missense variant,2023-07-28,User02,-2.7,-1.0,0,42,-0.8,-3.5
+PROJ-2025-ONCO,SMPL00308,PALB2,c.4164C>T,p.Asn1388His,N,H,1388,Likely pathogenic,Pathogenic,0.899,frameshift variant,2024-07-24,User05,0.3,0.1,0,23,-3.5,-3.2
+PROJ-2025-ONCO,SMPL00309,CDH1,c.5845G>C,p.Pro1949Asn,P,N,1949,Benign,Benign,0.335,frameshift variant,2023-08-10,User01,-1.9,0.0,1,17,-1.6,-3.5
+PROJ-2024-BRCA,SMPL00310,BMPR1A,c.2838T>A,p.Ser946Thr,S,T,946,Likely pathogenic,Pathogenic,0.786,synonymous variant,2025-02-22,User05,0.1,0.0,0,14,-0.8,-0.7
+PROJ-2024-BRCA,SMPL00311,BARD1,c.7642T>T,p.Phe2548Met,F,M,2548,Benign,Benign,0.07,missense variant,2025-10-16,User04,-0.9,0.0,0,-16,2.8,1.9
+PROJ-2024-BRCA,SMPL00312,ARSA,c.4223A>T,p.Lys1408Trp,K,W,1408,Benign,Benign,0.209,missense variant,2025-02-09,User04,3.0,-1.0,-1,58,-3.9,-0.9
+PROJ-2024-RARE,SMPL00313,HEXA,c.2173C>T,p.Cys725Asp,C,D,725,Benign,Benign,0.244,missense variant,2024-10-01,User04,-6.0,-1.0,1,12,2.5,-3.5
+PROJ-2025-META,SMPL00314,SMPD1,c.8293T>T,p.Glu2765Tyr,E,Y,2765,Likely benign,Benign,0.245,nonsense variant,2023-11-17,User05,2.2,1.0,0,34,-3.5,-1.3
+PROJ-2025-META,SMPL00315,ATM,c.6079G>G,p.Pro2027Lys,P,K,2027,Benign,Benign,0.341,missense variant,2023-02-27,User05,-2.3,1.0,1,31,-1.6,-3.9
+PROJ-2024-RARE,SMPL00316,TP53,c.4286A>T,p.Phe1429Pro,F,P,1429,Benign,Benign,0.048,missense variant,2025-01-01,User04,-4.4,0.0,0,-50,2.8,-1.6
+PROJ-2025-META,SMPL00317,MYH7,c.3045A>G,p.Cys1015Lys,C,K,1015,Likely pathogenic,Pathogenic,0.91,missense variant,2023-12-14,User01,-6.4,1.0,1,25,2.5,-3.9
+PROJ-2025-ONCO,SMPL00318,BARD1,c.8084A>T,p.Cys2695Ser,C,S,2695,Likely benign,Benign,0.216,nonsense variant,2024-10-10,User04,-3.3,0.0,1,-16,2.5,-0.8
+PROJ-2024-CARD,SMPL00319,SCN5A,c.1202T>G,p.Met401Tyr,M,Y,401,Likely benign,Benign,0.071,missense variant,2024-09-05,User03,-3.2,0.0,1,32,1.9,-1.3
+PROJ-2025-META,SMPL00320,KCNQ1,c.7809G>G,p.His2603Thr,H,T,2603,Pathogenic,Pathogenic,0.948,missense variant,2025-04-03,User02,2.5,-0.1,0,-36,-3.2,-0.7
+PROJ-2025-META,SMPL00321,CHEK2,c.7273T>T,p.Trp2425Glu,W,E,2425,Uncertain significance,Benign,0.125,missense variant,2023-06-07,User03,-2.6,-1.0,1,-57,-0.9,-3.5
+PROJ-2025-ONCO,SMPL00322,ARSA,c.8153G>T,p.Leu2718Arg,L,R,2718,Benign,Benign,0.137,frameshift variant,2024-01-05,User01,-8.3,1.0,1,43,3.8,-4.5
+PROJ-2025-META,SMPL00323,APC,c.2617T>A,p.Trp873Ser,W,S,873,Likely benign,Benign,0.123,missense variant,2025-01-16,User04,0.1,0.0,1,-99,-0.9,-0.8
+PROJ-2025-ONCO,SMPL00324,PMS2,c.8423A>C,p.Ile2808Phe,I,F,2808,Uncertain significance,Benign,0.302,splice site variant,2024-06-30,User03,-1.7,0.0,0,34,4.5,2.8
+PROJ-2024-CARD,SMPL00325,EPCAM,c.4989C>G,p.Lys1663Ile,K,I,1663,Likely pathogenic,Pathogenic,0.803,missense variant,2025-06-12,User04,8.4,-1.0,-1,-15,-3.9,4.5
+PROJ-2024-RARE,SMPL00326,TP53,c.3352C>A,p.His1118Gly,H,G,1118,Likely pathogenic,Pathogenic,0.786,synonymous variant,2025-09-22,User01,2.8,-0.1,-1,-80,-3.2,-0.4
+PROJ-2025-ONCO,SMPL00327,ATM,c.7394A>T,p.Asp2465Asn,D,N,2465,Uncertain significance,Benign,0.309,synonymous variant,2023-10-15,User02,0.0,1.0,0,-1,-3.5,-3.5
+PROJ-2025-META,SMPL00328,MSH2,c.1483G>T,p.Trp495Thr,W,T,495,Benign,Benign,0.246,splice site variant,2024-05-02,User05,0.2,0.0,1,-85,-0.9,-0.7
+PROJ-2024-CARD,SMPL00329,MSH2,c.7181C>C,p.Met2394Asn,M,N,2394,Likely benign,Benign,0.29,missense variant,2024-03-14,User03,-5.4,0.0,1,-17,1.9,-3.5
+PROJ-2024-RARE,SMPL00330,CFTR,c.7243A>G,p.Gln2415Lys,Q,K,2415,Pathogenic,Pathogenic,0.878,missense variant,2025-08-30,User02,-0.4,1.0,0,0,-3.5,-3.9
+PROJ-2024-BRCA,SMPL00331,CDH1,c.5839A>A,p.Phe1947Pro,F,P,1947,Uncertain significance,Benign,0.295,frameshift variant,2024-05-05,User03,-4.4,0.0,0,-50,2.8,-1.6
+PROJ-2024-CARD,SMPL00332,SCN5A,c.8420T>A,p.Leu2807Pro,L,P,2807,Pathogenic,Pathogenic,0.887,synonymous variant,2025-03-15,User03,-5.4,0.0,0,-16,3.8,-1.6
+PROJ-2024-CARD,SMPL00333,RAD51D,c.3656G>T,p.Asp1219Lys,D,K,1219,Likely pathogenic,Pathogenic,0.952,frameshift variant,2024-07-15,User01,-0.4,2.0,0,13,-3.5,-3.9
+PROJ-2024-BRCA,SMPL00334,SMPD1,c.4089G>A,p.Ser1363Gln,S,Q,1363,Likely benign,Benign,0.312,missense variant,2024-10-31,User04,-2.7,0.0,0,41,-0.8,-3.5
+PROJ-2024-CARD,SMPL00335,BRCA2,c.7746T>C,p.Cys2582His,C,H,2582,Likely benign,Benign,0.285,nonsense variant,2024-10-04,User05,-5.7,0.1,1,34,2.5,-3.2
+PROJ-2024-CARD,SMPL00336,CHEK2,c.3067T>G,p.Glu1023His,E,H,1023,Benign,Benign,0.261,missense variant,2023-10-01,User03,0.3,1.1,0,8,-3.5,-3.2
+PROJ-2024-RARE,SMPL00337,APC,c.3465T>T,p.Trp1155Met,W,M,1155,Likely pathogenic,Pathogenic,0.797,synonymous variant,2024-04-04,User01,2.8,0.0,0,-55,-0.9,1.9
+PROJ-2024-CARD,SMPL00338,BRCA2,c.1095T>T,p.Val365Ile,V,I,365,Likely benign,Benign,0.101,nonsense variant,2023-11-02,User01,0.3,0.0,0,14,4.2,4.5
+PROJ-2025-ONCO,SMPL00339,MYBPC3,c.1442T>A,p.Gly481Tyr,G,Y,481,Pathogenic,Pathogenic,0.924,missense variant,2024-02-21,User02,-0.9,0.0,1,106,-0.4,-1.3
+PROJ-2024-CARD,SMPL00340,CDH1,c.4693C>G,p.Leu1565Thr,L,T,1565,Likely pathogenic,Pathogenic,0.866,frameshift variant,2024-01-23,User04,-4.5,0.0,1,-12,3.8,-0.7
+PROJ-2024-CARD,SMPL00341,APC,c.352T>C,p.Gln118Phe,Q,F,118,Uncertain significance,Benign,0.343,missense variant,2025-07-27,User01,6.3,0.0,-1,19,-3.5,2.8
+PROJ-2025-ONCO,SMPL00342,BRCA1,c.3973T>G,p.Ser1325Phe,S,F,1325,Likely benign,Benign,0.253,missense variant,2023-05-01,User01,3.6,0.0,-1,60,-0.8,2.8
+PROJ-2025-META,SMPL00343,NBN,c.4354A>A,p.Ile1452Thr,I,T,1452,Benign,Benign,0.331,missense variant,2025-02-19,User03,-5.2,0.0,1,-12,4.5,-0.7
+PROJ-2024-RARE,SMPL00344,LMNA,c.6876T>G,p.Asn2292Phe,N,F,2292,Pathogenic,Pathogenic,0.896,splice site variant,2023-09-28,User01,6.3,0.0,-1,33,-3.5,2.8
+PROJ-2024-BRCA,SMPL00345,BARD1,c.1743T>G,p.Thr581Gln,T,Q,581,Uncertain significance,Benign,0.076,frameshift variant,2025-05-30,User03,-2.8,0.0,0,27,-0.7,-3.5
+PROJ-2024-CARD,SMPL00346,BMPR1A,c.6353T>C,p.Tyr2118Lys,Y,K,2118,Uncertain significance,Benign,0.175,nonsense variant,2025-06-20,User01,-2.6,1.0,0,-35,-1.3,-3.9
+PROJ-2024-RARE,SMPL00347,MUTYH,c.2826T>T,p.Phe942Cys,F,C,942,Likely pathogenic,Pathogenic,0.787,missense variant,2025-10-10,User01,-0.3,0.0,0,-44,2.8,2.5
+PROJ-2024-CARD,SMPL00348,CFTR,c.5964G>A,p.Asn1988Trp,N,W,1988,Likely benign,Benign,0.193,missense variant,2024-08-04,User02,2.6,0.0,-1,72,-3.5,-0.9
+PROJ-2024-BRCA,SMPL00349,EPCAM,c.6922C>T,p.Thr2308Lys,T,K,2308,Benign,Benign,0.106,synonymous variant,2024-05-19,User04,-3.2,1.0,0,27,-0.7,-3.9
+PROJ-2025-META,SMPL00350,MLH1,c.3495G>C,p.Met1165Ala,M,A,1165,Pathogenic,Pathogenic,0.859,missense variant,2025-07-31,User04,-0.1,0.0,0,-60,1.9,1.8
+PROJ-2025-ONCO,SMPL00351,HEXA,c.4049C>C,p.Lys1350Ala,K,A,1350,Pathogenic,Pathogenic,0.911,splice site variant,2024-08-02,User03,5.7,-1.0,-1,-57,-3.9,1.8
+PROJ-2024-RARE,SMPL00352,ATM,c.7401C>T,p.Asp2467Trp,D,W,2467,Likely benign,Benign,0.069,missense variant,2024-03-02,User02,2.6,1.0,-1,71,-3.5,-0.9
+PROJ-2025-ONCO,SMPL00353,SCN5A,c.7952G>C,p.Pro2651Leu,P,L,2651,Likely pathogenic,Pathogenic,0.804,missense variant,2023-07-16,User03,5.4,0.0,0,16,-1.6,3.8
+PROJ-2025-META,SMPL00354,ARSA,c.5473T>A,p.His1825Thr,H,T,1825,Likely benign,Benign,0.188,frameshift variant,2025-01-24,User05,2.5,-0.1,0,-36,-3.2,-0.7
+PROJ-2025-ONCO,SMPL00355,APC,c.1141C>C,p.Gln381Arg,Q,R,381,Pathogenic,Pathogenic,0.883,synonymous variant,2025-12-15,User05,-1.0,1.0,0,28,-3.5,-4.5
+PROJ-2025-ONCO,SMPL00356,CHEK2,c.5375C>C,p.Leu1792Ser,L,S,1792,Pathogenic,Pathogenic,0.961,frameshift variant,2024-09-07,User02,-4.6,0.0,1,-26,3.8,-0.8
+PROJ-2024-BRCA,SMPL00357,KCNQ1,c.586A>T,p.Leu196Tyr,L,Y,196,Benign,Benign,0.064,missense variant,2025-08-09,User05,-5.1,0.0,1,50,3.8,-1.3
+PROJ-2024-BRCA,SMPL00358,BMPR1A,c.7197T>C,p.Asn2399Lys,N,K,2399,Pathogenic,Pathogenic,0.934,frameshift variant,2025-03-15,User01,-0.4,1.0,0,14,-3.5,-3.9
+PROJ-2025-ONCO,SMPL00359,CHEK2,c.3856G>G,p.Gln1286Leu,Q,L,1286,Benign,Benign,0.264,synonymous variant,2024-01-19,User02,7.3,0.0,-1,-15,-3.5,3.8
+PROJ-2024-BRCA,SMPL00360,APC,c.8277T>A,p.Asp2759Leu,D,L,2759,Pathogenic,Pathogenic,0.867,missense variant,2025-09-04,User04,7.3,1.0,-1,-2,-3.5,3.8
+PROJ-2025-META,SMPL00361,LMNA,c.3722T>G,p.Tyr1241Ser,Y,S,1241,Benign,Benign,0.292,missense variant,2023-10-04,User01,0.5,0.0,0,-76,-1.3,-0.8
+PROJ-2024-CARD,SMPL00362,MUTYH,c.8552C>C,p.Glu2851Ala,E,A,2851,Likely pathogenic,Pathogenic,0.952,missense variant,2024-01-26,User01,5.3,1.0,-1,-58,-3.5,1.8
+PROJ-2024-CARD,SMPL00363,RAD51D,c.5826T>T,p.Arg1942Phe,R,F,1942,Likely benign,Benign,0.047,missense variant,2025-07-09,User05,7.3,-1.0,-1,-9,-4.5,2.8
+PROJ-2024-BRCA,SMPL00364,SMAD4,c.6999T>T,p.His2333Met,H,M,2333,Likely benign,Benign,0.056,splice site variant,2024-08-18,User01,5.1,-0.1,-1,-6,-3.2,1.9
+PROJ-2025-ONCO,SMPL00365,SMPD1,c.6309A>A,p.Pro2103Thr,P,T,2103,Benign,Benign,0.265,missense variant,2024-10-08,User05,0.9,0.0,1,4,-1.6,-0.7
+PROJ-2024-RARE,SMPL00366,PALB2,c.5816T>A,p.Lys1939Arg,K,R,1939,Pathogenic,Pathogenic,0.879,missense variant,2024-01-29,User04,-0.6,0.0,0,28,-3.9,-4.5
+PROJ-2024-RARE,SMPL00367,MYH7,c.6238T>C,p.Arg2080Ile,R,I,2080,Likely pathogenic,Pathogenic,0.898,splice site variant,2025-03-10,User04,9.0,-1.0,-1,-43,-4.5,4.5
+PROJ-2024-BRCA,SMPL00368,MYBPC3,c.7642T>C,p.Ser2548Gly,S,G,2548,Likely pathogenic,Pathogenic,0.836,missense variant,2023-11-17,User05,0.4,0.0,-1,-30,-0.8,-0.4
+PROJ-2025-META,SMPL00369,SMPD1,c.6069A>G,p.Glu2023Arg,E,R,2023,Uncertain significance,Benign,0.113,splice site variant,2025-01-01,User02,-1.0,2.0,0,27,-3.5,-4.5
+PROJ-2025-META,SMPL00370,APC,c.783A>C,p.Thr261Cys,T,C,261,Uncertain significance,Benign,0.173,missense variant,2024-11-27,User03,3.2,0.0,-1,2,-0.7,2.5
+PROJ-2024-BRCA,SMPL00371,TP53,c.1858A>T,p.Val620Lys,V,K,620,Benign,Benign,0.227,frameshift variant,2023-08-16,User01,-8.1,1.0,1,29,4.2,-3.9
+PROJ-2024-BRCA,SMPL00372,MLH1,c.6234G>C,p.Val2078Cys,V,C,2078,Pathogenic,Pathogenic,0.813,frameshift variant,2025-06-23,User05,-1.7,0.0,0,4,4.2,2.5
+PROJ-2024-CARD,SMPL00373,SMPD1,c.7953C>T,p.Glu2651Gly,E,G,2651,Uncertain significance,Benign,0.144,synonymous variant,2023-01-14,User02,3.1,1.0,-1,-72,-3.5,-0.4
+PROJ-2024-RARE,SMPL00374,GBA,c.6205T>G,p.Met2069Leu,M,L,2069,Likely pathogenic,Pathogenic,0.797,nonsense variant,2024-05-17,User02,1.9,0.0,0,-18,1.9,3.8
+PROJ-2025-ONCO,SMPL00375,RYR2,c.5269G>A,p.Ile1757Phe,I,F,1757,Likely benign,Benign,0.325,missense variant,2023-01-21,User05,-1.7,0.0,0,34,4.5,2.8
+PROJ-2024-CARD,SMPL00376,PALB2,c.3869A>T,p.Asp1290Asn,D,N,1290,Likely benign,Benign,0.344,frameshift variant,2023-11-06,User05,0.0,1.0,0,-1,-3.5,-3.5
+PROJ-2025-META,SMPL00377,ATM,c.5153G>G,p.Thr1718Leu,T,L,1718,Likely benign,Benign,0.315,missense variant,2024-07-26,User05,4.5,0.0,-1,12,-0.7,3.8
+PROJ-2025-META,SMPL00378,PMS2,c.7912T>G,p.Pro2638Ser,P,S,2638,Likely pathogenic,Pathogenic,0.958,splice site variant,2025-04-08,User02,0.8,0.0,1,-10,-1.6,-0.8
+PROJ-2024-CARD,SMPL00379,RAD51D,c.6604G>C,p.Asp2202Cys,D,C,2202,Uncertain significance,Benign,0.161,missense variant,2024-10-01,User05,6.0,1.0,-1,-12,-3.5,2.5
+PROJ-2024-CARD,SMPL00380,NBN,c.344T>A,p.Gly115Ala,G,A,115,Benign,Benign,0.224,frameshift variant,2025-02-02,User03,2.2,0.0,0,14,-0.4,1.8
+PROJ-2025-META,SMPL00381,ARSA,c.586A>T,p.Asn196Glu,N,E,196,Pathogenic,Pathogenic,0.87,missense variant,2024-04-28,User05,0.0,-1.0,0,15,-3.5,-3.5
+PROJ-2025-ONCO,SMPL00382,STK11,c.3496C>A,p.Asn1166Leu,N,L,1166,Benign,Benign,0.248,missense variant,2024-01-30,User03,7.3,0.0,-1,-1,-3.5,3.8
+PROJ-2024-BRCA,SMPL00383,HEXA,c.8745A>T,p.Glu2915Gly,E,G,2915,Likely benign,Benign,0.297,splice site variant,2025-09-02,User02,3.1,1.0,-1,-72,-3.5,-0.4
+PROJ-2025-META,SMPL00384,CFTR,c.8317T>G,p.Asp2773Pro,D,P,2773,Benign,Benign,0.165,nonsense variant,2025-05-17,User04,1.9,1.0,-1,-18,-3.5,-1.6
+PROJ-2025-ONCO,SMPL00385,SMPD1,c.1776A>C,p.Gln592Gly,Q,G,592,Benign,Benign,0.079,missense variant,2023-03-08,User02,3.1,0.0,-1,-71,-3.5,-0.4
+PROJ-2024-RARE,SMPL00386,MYBPC3,c.1356C>A,p.Glu452Arg,E,R,452,Pathogenic,Pathogenic,0.854,missense variant,2025-02-05,User03,-1.0,2.0,0,27,-3.5,-4.5
+PROJ-2025-ONCO,SMPL00387,RAD51C,c.1758G>G,p.Ser586Ala,S,A,586,Likely pathogenic,Pathogenic,0.937,missense variant,2025-09-28,User01,2.6,0.0,-1,-16,-0.8,1.8
+PROJ-2025-META,SMPL00388,MSH2,c.830T>G,p.Val277Asn,V,N,277,Pathogenic,Pathogenic,0.864,frameshift variant,2025-08-31,User05,-7.7,0.0,1,15,4.2,-3.5
+PROJ-2025-ONCO,SMPL00389,MSH6,c.7821G>A,p.Phe2607Val,F,V,2607,Likely benign,Benign,0.276,frameshift variant,2025-04-18,User04,1.4,0.0,0,-48,2.8,4.2
+PROJ-2025-ONCO,SMPL00390,STK11,c.6646G>A,p.Pro2216Met,P,M,2216,Pathogenic,Pathogenic,0.972,splice site variant,2023-02-20,User05,3.5,0.0,0,34,-1.6,1.9
+PROJ-2025-META,SMPL00391,RAD51D,c.7912A>C,p.Val2638Glu,V,E,2638,Benign,Benign,0.066,frameshift variant,2025-10-26,User01,-7.7,-1.0,1,30,4.2,-3.5
+PROJ-2024-CARD,SMPL00392,MSH2,c.232T>A,p.Val78Gly,V,G,78,Uncertain significance,Benign,0.284,frameshift variant,2024-10-18,User04,-4.6,0.0,0,-42,4.2,-0.4
+PROJ-2024-BRCA,SMPL00393,TP53,c.4177G>T,p.Ser1393Ala,S,A,1393,Likely benign,Benign,0.096,missense variant,2023-08-23,User01,2.6,0.0,-1,-16,-0.8,1.8
+PROJ-2024-CARD,SMPL00394,EPCAM,c.2246T>C,p.Leu749Phe,L,F,749,Uncertain significance,Benign,0.278,missense variant,2024-10-28,User02,-1.0,0.0,0,34,3.8,2.8
+PROJ-2025-ONCO,SMPL00395,BRCA2,c.4793G>T,p.Cys1598Met,C,M,1598,Pathogenic,Pathogenic,0.844,synonymous variant,2023-09-05,User01,-0.6,0.0,0,28,2.5,1.9
+PROJ-2025-META,SMPL00396,MUTYH,c.2906A>G,p.Ile969Tyr,I,Y,969,Likely benign,Benign,0.198,missense variant,2025-08-09,User05,-5.8,0.0,1,50,4.5,-1.3
+PROJ-2024-BRCA,SMPL00397,RYR2,c.356A>C,p.Asp119Thr,D,T,119,Likely benign,Benign,0.236,frameshift variant,2023-09-15,User03,2.8,1.0,0,-14,-3.5,-0.7
+PROJ-2024-CARD,SMPL00398,RYR2,c.7814C>C,p.Arg2605Asp,R,D,2605,Benign,Benign,0.103,missense variant,2025-05-17,User05,1.0,-2.0,0,-41,-4.5,-3.5
+PROJ-2024-CARD,SMPL00399,CFTR,c.5712A>T,p.Cys1904Ala,C,A,1904,Benign,Benign,0.13,missense variant,2024-05-28,User04,-0.7,0.0,0,-32,2.5,1.8
+PROJ-2025-META,SMPL00400,MYH7,c.6271A>G,p.His2091Tyr,H,Y,2091,Uncertain significance,Benign,0.054,missense variant,2023-09-09,User02,1.9,-0.1,0,26,-3.2,-1.3
+PROJ-2024-RARE,SMPL00401,CDH1,c.7501G>G,p.Gln2501His,Q,H,2501,Benign,Benign,0.337,synonymous variant,2025-07-16,User03,0.3,0.1,0,9,-3.5,-3.2
+PROJ-2024-RARE,SMPL00402,SMAD4,c.2589C>A,p.Met863Asn,M,N,863,Likely benign,Benign,0.337,nonsense variant,2023-01-09,User01,-5.4,0.0,1,-17,1.9,-3.5
+PROJ-2025-META,SMPL00403,APC,c.8559A>A,p.Gln2853Trp,Q,W,2853,Likely benign,Benign,0.276,splice site variant,2025-06-30,User01,2.6,0.0,-1,58,-3.5,-0.9
+PROJ-2024-BRCA,SMPL00404,MYH7,c.4755T>G,p.Pro1585Asn,P,N,1585,Likely pathogenic,Pathogenic,0.948,synonymous variant,2025-06-29,User01,-1.9,0.0,1,17,-1.6,-3.5
+PROJ-2025-META,SMPL00405,STK11,c.8362G>C,p.Ala2788Leu,A,L,2788,Uncertain significance,Benign,0.099,missense variant,2025-10-08,User03,2.0,0.0,0,42,1.8,3.8
+PROJ-2024-CARD,SMPL00406,TP53,c.8650T>A,p.Lys2884Thr,K,T,2884,Benign,Benign,0.105,splice site variant,2025-10-21,User04,3.2,-1.0,0,-27,-3.9,-0.7
+PROJ-2025-META,SMPL00407,EPCAM,c.8107C>A,p.Val2703His,V,H,2703,Benign,Benign,0.248,nonsense variant,2023-05-14,User02,-7.4,0.1,1,38,4.2,-3.2
+PROJ-2024-BRCA,SMPL00408,BMPR1A,c.6427G>T,p.Trp2143Ile,W,I,2143,Uncertain significance,Benign,0.099,missense variant,2025-05-24,User01,5.4,0.0,0,-73,-0.9,4.5
+PROJ-2025-ONCO,SMPL00409,BARD1,c.3368G>A,p.Gln1123Arg,Q,R,1123,Pathogenic,Pathogenic,0.916,splice site variant,2024-04-04,User01,-1.0,1.0,0,28,-3.5,-4.5
+PROJ-2024-CARD,SMPL00410,CDH1,c.5516A>A,p.Gln1839Trp,Q,W,1839,Uncertain significance,Benign,0.042,synonymous variant,2024-04-07,User04,2.6,0.0,-1,58,-3.5,-0.9
+PROJ-2024-BRCA,SMPL00411,PALB2,c.2022T>T,p.Ile674His,I,H,674,Uncertain significance,Benign,0.136,frameshift variant,2024-11-15,User03,-7.7,0.1,1,24,4.5,-3.2
+PROJ-2024-RARE,SMPL00412,SMAD4,c.2929C>A,p.Glu977Thr,E,T,977,Uncertain significance,Benign,0.298,frameshift variant,2025-06-17,User01,2.8,1.0,0,-28,-3.5,-0.7
+PROJ-2025-ONCO,SMPL00413,CFTR,c.1052A>C,p.Trp351Glu,W,E,351,Pathogenic,Pathogenic,0.963,missense variant,2025-06-24,User01,-2.6,-1.0,1,-57,-0.9,-3.5
+PROJ-2025-META,SMPL00414,RAD51D,c.810G>T,p.Tyr270Gln,Y,Q,270,Pathogenic,Pathogenic,0.916,missense variant,2025-04-21,User02,-2.2,0.0,0,-35,-1.3,-3.5
+PROJ-2025-META,SMPL00415,BRCA1,c.5706G>A,p.Arg1902Pro,R,P,1902,Likely benign,Benign,0.313,missense variant,2024-11-03,User05,2.9,-1.0,-1,-59,-4.5,-1.6
+PROJ-2025-META,SMPL00416,MUTYH,c.153C>G,p.Glu51Phe,E,F,51,Benign,Benign,0.261,missense variant,2025-09-12,User05,6.3,1.0,-1,18,-3.5,2.8
+PROJ-2024-RARE,SMPL00417,CFTR,c.1690T>G,p.Gly564Lys,G,K,564,Pathogenic,Pathogenic,0.792,missense variant,2023-10-26,User02,-3.5,1.0,1,71,-0.4,-3.9
+PROJ-2025-META,SMPL00418,GBA,c.3577C>A,p.Leu1193Asn,L,N,1193,Uncertain significance,Benign,0.341,missense variant,2023-04-22,User04,-7.3,0.0,1,1,3.8,-3.5
+PROJ-2024-RARE,SMPL00419,MYH7,c.7872T>T,p.His2624Ile,H,I,2624,Likely pathogenic,Pathogenic,0.937,nonsense variant,2024-11-09,User05,7.7,-0.1,-1,-24,-3.2,4.5
+PROJ-2025-ONCO,SMPL00420,NBN,c.5145T>C,p.Tyr1715Leu,Y,L,1715,Uncertain significance,Benign,0.09,synonymous variant,2024-04-01,User02,5.1,0.0,-1,-50,-1.3,3.8
+PROJ-2024-RARE,SMPL00421,HEXA,c.2938T>C,p.Tyr980His,Y,H,980,Likely benign,Benign,0.268,missense variant,2023-01-14,User03,-1.9,0.1,0,-26,-1.3,-3.2
+PROJ-2024-RARE,SMPL00422,BRCA1,c.368C>G,p.Asp123Pro,D,P,123,Benign,Benign,0.076,missense variant,2023-03-02,User02,1.9,1.0,-1,-18,-3.5,-1.6
+PROJ-2024-RARE,SMPL00423,MUTYH,c.2689C>C,p.Leu897Gly,L,G,897,Uncertain significance,Benign,0.263,missense variant,2023-12-27,User03,-4.2,0.0,0,-56,3.8,-0.4
+PROJ-2024-CARD,SMPL00424,MLH1,c.4658T>C,p.Ala1553Gly,A,G,1553,Pathogenic,Pathogenic,0.848,missense variant,2025-02-01,User02,-2.2,0.0,0,-14,1.8,-0.4
+PROJ-2024-CARD,SMPL00425,KCNQ1,c.1774T>G,p.Asp592Phe,D,F,592,Likely pathogenic,Pathogenic,0.939,missense variant,2025-05-29,User02,6.3,1.0,-1,32,-3.5,2.8
+PROJ-2024-CARD,SMPL00426,TP53,c.2324C>A,p.Tyr775Trp,Y,W,775,Benign,Benign,0.131,nonsense variant,2024-07-27,User02,0.4,0.0,-1,23,-1.3,-0.9
+PROJ-2025-META,SMPL00427,ARSA,c.2574C>T,p.Trp858Ser,W,S,858,Pathogenic,Pathogenic,0.937,frameshift variant,2025-11-08,User03,0.1,0.0,1,-99,-0.9,-0.8
+PROJ-2025-META,SMPL00428,SMPD1,c.2200T>T,p.Thr734Arg,T,R,734,Uncertain significance,Benign,0.261,missense variant,2025-04-01,User05,-3.8,1.0,0,55,-0.7,-4.5
+PROJ-2025-ONCO,SMPL00429,TP53,c.2496G>T,p.His832Lys,H,K,832,Likely benign,Benign,0.308,splice site variant,2023-11-18,User03,-0.7,0.9,0,-9,-3.2,-3.9
+PROJ-2025-META,SMPL00430,BMPR1A,c.1652C>A,p.Val551Asp,V,D,551,Pathogenic,Pathogenic,0.839,missense variant,2024-11-19,User04,-7.7,-1.0,1,16,4.2,-3.5
+PROJ-2024-RARE,SMPL00431,CFTR,c.5027T>A,p.Arg1676Gln,R,Q,1676,Uncertain significance,Benign,0.289,missense variant,2024-04-23,User03,1.0,-1.0,0,-28,-4.5,-3.5
+PROJ-2024-BRCA,SMPL00432,PALB2,c.3620C>A,p.Asn1207Asp,N,D,1207,Benign,Benign,0.199,missense variant,2025-01-07,User01,0.0,-1.0,0,1,-3.5,-3.5
+PROJ-2024-RARE,SMPL00433,MUTYH,c.8298C>G,p.Met2766His,M,H,2766,Uncertain significance,Benign,0.118,missense variant,2024-09-05,User03,-5.1,0.1,1,6,1.9,-3.2
+PROJ-2025-META,SMPL00434,MYH7,c.7128T>C,p.Pro2376Gln,P,Q,2376,Pathogenic,Pathogenic,0.874,missense variant,2024-03-05,User04,-1.9,0.0,1,31,-1.6,-3.5
+PROJ-2025-ONCO,SMPL00435,STK11,c.6791A>G,p.Thr2264Tyr,T,Y,2264,Likely benign,Benign,0.264,splice site variant,2025-05-28,User04,-0.6,0.0,0,62,-0.7,-1.3
+PROJ-2025-META,SMPL00436,PTEN,c.6864G>A,p.Arg2288Ser,R,S,2288,Pathogenic,Pathogenic,0.855,missense variant,2024-12-27,User03,3.7,-1.0,0,-69,-4.5,-0.8
+PROJ-2025-META,SMPL00437,STK11,c.8426G>A,p.Gln2809Arg,Q,R,2809,Likely benign,Benign,0.276,nonsense variant,2023-03-07,User02,-1.0,1.0,0,28,-3.5,-4.5
+PROJ-2025-META,SMPL00438,PMS2,c.7739T>C,p.Met2580Tyr,M,Y,2580,Benign,Benign,0.323,synonymous variant,2023-05-11,User05,-3.2,0.0,1,32,1.9,-1.3
+PROJ-2025-ONCO,SMPL00439,SCN5A,c.1333G>A,p.His445Thr,H,T,445,Uncertain significance,Benign,0.217,missense variant,2023-12-30,User01,2.5,-0.1,0,-36,-3.2,-0.7
+PROJ-2025-ONCO,SMPL00440,SMPD1,c.2447C>C,p.Ala816His,A,H,816,Pathogenic,Pathogenic,0.962,missense variant,2025-12-09,User01,-5.0,0.1,1,66,1.8,-3.2
+PROJ-2025-ONCO,SMPL00441,HEXA,c.6371C>A,p.Cys2124Pro,C,P,2124,Pathogenic,Pathogenic,0.814,missense variant,2025-05-06,User04,-4.1,0.0,0,-6,2.5,-1.6
+PROJ-2025-ONCO,SMPL00442,PALB2,c.1599G>C,p.Pro533His,P,H,533,Likely pathogenic,Pathogenic,0.842,missense variant,2025-07-28,User03,-1.6,0.1,1,40,-1.6,-3.2
+PROJ-2025-META,SMPL00443,MUTYH,c.5478G>T,p.Ala1826Gly,A,G,1826,Pathogenic,Pathogenic,0.945,missense variant,2023-03-22,User01,-2.2,0.0,0,-14,1.8,-0.4
+PROJ-2024-CARD,SMPL00444,RAD51C,c.8606C>C,p.Arg2869Asn,R,N,2869,Uncertain significance,Benign,0.161,splice site variant,2025-06-03,User04,1.0,-1.0,0,-42,-4.5,-3.5
+PROJ-2024-BRCA,SMPL00445,SCN5A,c.1176C>G,p.Gly392Tyr,G,Y,392,Likely benign,Benign,0.257,splice site variant,2024-08-20,User01,-0.9,0.0,1,106,-0.4,-1.3
+PROJ-2024-BRCA,SMPL00446,PTEN,c.6795G>T,p.Ser2265Gln,S,Q,2265,Pathogenic,Pathogenic,0.979,missense variant,2024-06-01,User02,-2.7,0.0,0,41,-0.8,-3.5
+PROJ-2025-ONCO,SMPL00447,ARSA,c.329G>T,p.Cys110Ser,C,S,110,Pathogenic,Pathogenic,0.908,splice site variant,2025-03-23,User01,-3.3,0.0,1,-16,2.5,-0.8
+PROJ-2025-ONCO,SMPL00448,BRCA1,c.8714T>A,p.Lys2905Glu,K,E,2905,Likely pathogenic,Pathogenic,0.845,missense variant,2024-05-11,User04,0.4,-2.0,0,1,-3.9,-3.5
+PROJ-2025-META,SMPL00449,MSH6,c.1983C>G,p.Ser661Lys,S,K,661,Likely pathogenic,Pathogenic,0.948,missense variant,2025-03-11,User02,-3.1,1.0,0,41,-0.8,-3.9
+PROJ-2024-CARD,SMPL00450,PALB2,c.1885A>C,p.Ala629Leu,A,L,629,Likely benign,Benign,0.151,missense variant,2023-04-08,User05,2.0,0.0,0,42,1.8,3.8
+PROJ-2024-BRCA,SMPL00451,MLH1,c.5456C>C,p.Pro1819Leu,P,L,1819,Pathogenic,Pathogenic,0.9,missense variant,2024-05-03,User02,5.4,0.0,0,16,-1.6,3.8
+PROJ-2024-CARD,SMPL00452,CHEK2,c.343A>C,p.Ala115Arg,A,R,115,Pathogenic,Pathogenic,0.847,synonymous variant,2023-07-17,User02,-6.3,1.0,1,85,1.8,-4.5
+PROJ-2024-RARE,SMPL00453,EPCAM,c.6298C>C,p.Cys2100Arg,C,R,2100,Pathogenic,Pathogenic,0.943,synonymous variant,2025-03-20,User04,-7.0,1.0,1,53,2.5,-4.5
+PROJ-2024-BRCA,SMPL00454,MSH2,c.1301G>A,p.Ile434His,I,H,434,Uncertain significance,Benign,0.14,missense variant,2025-07-28,User02,-7.7,0.1,1,24,4.5,-3.2
+PROJ-2025-ONCO,SMPL00455,PALB2,c.539T>A,p.Lys180Pro,K,P,180,Pathogenic,Pathogenic,0.957,frameshift variant,2023-12-18,User03,2.3,-1.0,-1,-31,-3.9,-1.6
+PROJ-2024-CARD,SMPL00456,MLH1,c.7754C>G,p.Tyr2585Met,Y,M,2585,Likely benign,Benign,0.25,synonymous variant,2025-09-14,User01,3.2,0.0,-1,-32,-1.3,1.9
+PROJ-2024-CARD,SMPL00457,NBN,c.5515A>C,p.Ala1839Tyr,A,Y,1839,Likely benign,Benign,0.198,missense variant,2023-09-12,User03,-3.1,0.0,1,92,1.8,-1.3
+PROJ-2024-RARE,SMPL00458,SMAD4,c.7616G>C,p.Gln2539Ile,Q,I,2539,Pathogenic,Pathogenic,0.792,missense variant,2024-02-23,User01,8.0,0.0,-1,-15,-3.5,4.5
+PROJ-2024-BRCA,SMPL00459,SMAD4,c.4039T>G,p.Tyr1347Arg,Y,R,1347,Likely pathogenic,Pathogenic,0.836,frameshift variant,2024-04-14,User03,-3.2,1.0,0,-7,-1.3,-4.5
+PROJ-2024-CARD,SMPL00460,NBN,c.6628C>T,p.Ile2210His,I,H,2210,Pathogenic,Pathogenic,0.961,missense variant,2024-01-11,User04,-7.7,0.1,1,24,4.5,-3.2
+PROJ-2024-CARD,SMPL00461,BRCA1,c.861C>A,p.Asp287Thr,D,T,287,Likely pathogenic,Pathogenic,0.79,missense variant,2024-02-23,User02,2.8,1.0,0,-14,-3.5,-0.7
+PROJ-2024-CARD,SMPL00462,ARSA,c.8910T>C,p.Asp2970Arg,D,R,2970,Likely benign,Benign,0.137,nonsense variant,2024-09-12,User03,-1.0,2.0,0,41,-3.5,-4.5
+PROJ-2024-RARE,SMPL00463,CFTR,c.5912T>C,p.His1971Leu,H,L,1971,Pathogenic,Pathogenic,0.97,missense variant,2025-05-15,User05,7.0,-0.1,-1,-24,-3.2,3.8
+PROJ-2024-BRCA,SMPL00464,KCNQ1,c.245C>C,p.Phe82Thr,F,T,82,Likely benign,Benign,0.172,missense variant,2025-08-07,User03,-3.5,0.0,1,-46,2.8,-0.7
+PROJ-2024-RARE,SMPL00465,HEXA,c.6909T>C,p.Leu2303Gln,L,Q,2303,Benign,Benign,0.189,missense variant,2024-01-24,User01,-7.3,0.0,1,15,3.8,-3.5
+PROJ-2025-ONCO,SMPL00466,BRCA1,c.6037G>T,p.Thr2013Asn,T,N,2013,Likely benign,Benign,0.327,missense variant,2023-05-26,User04,-2.8,0.0,0,13,-0.7,-3.5
+PROJ-2025-ONCO,SMPL00467,TP53,c.6950G>T,p.Glu2317Gln,E,Q,2317,Likely pathogenic,Pathogenic,0.819,nonsense variant,2025-01-24,User01,0.0,1.0,0,-1,-3.5,-3.5
+PROJ-2024-RARE,SMPL00468,SCN5A,c.2977A>C,p.Gln993Ile,Q,I,993,Likely benign,Benign,0.051,missense variant,2025-07-21,User02,8.0,0.0,-1,-15,-3.5,4.5
+PROJ-2024-BRCA,SMPL00469,BMPR1A,c.8143T>T,p.Ile2715Tyr,I,Y,2715,Likely pathogenic,Pathogenic,0.782,frameshift variant,2023-06-14,User05,-5.8,0.0,1,50,4.5,-1.3
+PROJ-2025-META,SMPL00470,MUTYH,c.5245T>G,p.Gln1749Gly,Q,G,1749,Uncertain significance,Benign,0.254,frameshift variant,2023-07-02,User01,3.1,0.0,-1,-71,-3.5,-0.4
+PROJ-2024-BRCA,SMPL00471,MYH7,c.2577T>A,p.Phe859Leu,F,L,859,Likely benign,Benign,0.257,missense variant,2025-05-05,User05,1.0,0.0,0,-34,2.8,3.8
+PROJ-2024-CARD,SMPL00472,RYR2,c.2097T>C,p.Leu699Arg,L,R,699,Likely pathogenic,Pathogenic,0.855,missense variant,2023-08-14,User04,-8.3,1.0,1,43,3.8,-4.5
+PROJ-2024-CARD,SMPL00473,PTEN,c.725T>T,p.Gly242Ile,G,I,242,Likely pathogenic,Pathogenic,0.942,nonsense variant,2023-08-12,User02,4.9,0.0,0,56,-0.4,4.5
+PROJ-2024-RARE,SMPL00474,CHEK2,c.4644C>T,p.Leu1548Asp,L,D,1548,Pathogenic,Pathogenic,0.835,missense variant,2023-07-26,User01,-7.3,-1.0,1,2,3.8,-3.5
+PROJ-2024-BRCA,SMPL00475,ATM,c.8178C>A,p.Lys2726Ala,K,A,2726,Benign,Benign,0.285,missense variant,2025-12-01,User03,5.7,-1.0,-1,-57,-3.9,1.8
+PROJ-2024-RARE,SMPL00476,SMPD1,c.7427C>G,p.Ser2476Met,S,M,2476,Likely benign,Benign,0.144,nonsense variant,2025-02-14,User05,2.7,0.0,-1,44,-0.8,1.9
+PROJ-2025-ONCO,SMPL00477,ATM,c.1231C>A,p.Asn411Met,N,M,411,Pathogenic,Pathogenic,0.871,nonsense variant,2025-12-22,User03,5.4,0.0,-1,17,-3.5,1.9
+PROJ-2024-CARD,SMPL00478,SMAD4,c.7599G>A,p.Asn2533Ser,N,S,2533,Likely benign,Benign,0.2,nonsense variant,2023-04-04,User03,2.7,0.0,0,-27,-3.5,-0.8
+PROJ-2024-RARE,SMPL00479,CFTR,c.4919T>A,p.Ile1640Thr,I,T,1640,Benign,Benign,0.286,frameshift variant,2024-08-24,User05,-5.2,0.0,1,-12,4.5,-0.7
+PROJ-2025-ONCO,SMPL00480,MUTYH,c.7029G>T,p.Phe2343Val,F,V,2343,Benign,Benign,0.05,missense variant,2025-07-02,User01,1.4,0.0,0,-48,2.8,4.2
+PROJ-2024-BRCA,SMPL00481,GBA,c.2991T>A,p.Val997Ile,V,I,997,Likely pathogenic,Pathogenic,0.814,missense variant,2024-10-30,User04,0.3,0.0,0,14,4.2,4.5
+PROJ-2024-BRCA,SMPL00482,CDH1,c.8182C>T,p.Ile2728Leu,I,L,2728,Likely benign,Benign,0.335,missense variant,2024-11-12,User02,-0.7,0.0,0,0,4.5,3.8
+PROJ-2025-META,SMPL00483,PALB2,c.8816C>C,p.Met2939Gln,M,Q,2939,Likely benign,Benign,0.243,missense variant,2024-08-18,User01,-5.4,0.0,1,-3,1.9,-3.5
+PROJ-2024-BRCA,SMPL00484,MSH2,c.7276G>C,p.Asp2426Asn,D,N,2426,Likely pathogenic,Pathogenic,0.929,splice site variant,2025-02-17,User05,0.0,1.0,0,-1,-3.5,-3.5
+PROJ-2025-ONCO,SMPL00485,BRCA1,c.7250G>G,p.Leu2417Cys,L,C,2417,Benign,Benign,0.099,frameshift variant,2023-09-16,User05,-1.3,0.0,0,-10,3.8,2.5
+PROJ-2024-RARE,SMPL00486,STK11,c.114G>C,p.Glu38Gln,E,Q,38,Benign,Benign,0.304,missense variant,2025-07-22,User02,0.0,1.0,0,-1,-3.5,-3.5
+PROJ-2024-BRCA,SMPL00487,RAD51C,c.7361T>C,p.Phe2454Cys,F,C,2454,Uncertain significance,Benign,0.136,missense variant,2025-02-10,User01,-0.3,0.0,0,-44,2.8,2.5
+PROJ-2024-CARD,SMPL00488,NBN,c.2765T>G,p.Phe922Ile,F,I,922,Pathogenic,Pathogenic,0.965,synonymous variant,2023-11-23,User01,1.7,0.0,0,-34,2.8,4.5
+PROJ-2025-ONCO,SMPL00489,LMNA,c.8330A>G,p.Met2777Arg,M,R,2777,Likely benign,Benign,0.347,missense variant,2024-02-04,User05,-6.4,1.0,1,25,1.9,-4.5
+PROJ-2024-BRCA,SMPL00490,LMNA,c.3973G>T,p.Glu1325Gly,E,G,1325,Benign,Benign,0.308,nonsense variant,2023-10-09,User04,3.1,1.0,-1,-72,-3.5,-0.4
+PROJ-2024-CARD,SMPL00491,GBA,c.2578A>G,p.Leu860Phe,L,F,860,Likely pathogenic,Pathogenic,0.941,frameshift variant,2023-07-28,User02,-1.0,0.0,0,34,3.8,2.8
+PROJ-2025-ONCO,SMPL00492,SCN5A,c.693A>A,p.Gln231Gly,Q,G,231,Pathogenic,Pathogenic,0.851,synonymous variant,2024-11-24,User05,3.1,0.0,-1,-71,-3.5,-0.4
+PROJ-2025-ONCO,SMPL00493,KCNQ1,c.3011G>C,p.Phe1004Gln,F,Q,1004,Pathogenic,Pathogenic,0.804,nonsense variant,2025-02-07,User01,-6.3,0.0,1,-19,2.8,-3.5
+PROJ-2024-BRCA,SMPL00494,HEXA,c.7773A>A,p.Pro2591Lys,P,K,2591,Likely benign,Benign,0.154,missense variant,2025-11-09,User02,-2.3,1.0,1,31,-1.6,-3.9
+PROJ-2024-BRCA,SMPL00495,BRCA2,c.7036C>T,p.Trp2346Tyr,W,Y,2346,Likely benign,Benign,0.125,missense variant,2025-06-07,User03,-0.4,0.0,1,-23,-0.9,-1.3
+PROJ-2024-BRCA,SMPL00496,MSH6,c.782T>A,p.Glu261Asn,E,N,261,Benign,Benign,0.097,missense variant,2023-09-12,User02,0.0,1.0,0,-15,-3.5,-3.5
+PROJ-2024-RARE,SMPL00497,MSH2,c.66A>C,p.Gly22His,G,H,22,Benign,Benign,0.179,nonsense variant,2023-11-27,User01,-2.8,0.1,1,80,-0.4,-3.2
+PROJ-2025-META,SMPL00498,BMPR1A,c.1533T>A,p.Cys511Glu,C,E,511,Benign,Benign,0.133,missense variant,2023-04-05,User05,-6.0,-1.0,1,26,2.5,-3.5
+PROJ-2024-RARE,SMPL00499,RAD51C,c.1717G>C,p.Val573Arg,V,R,573,Benign,Benign,0.192,frameshift variant,2023-04-02,User02,-8.7,1.0,1,57,4.2,-4.5
+PROJ-2025-META,SMPL00500,TP53,c.3682C>G,p.His1228Phe,H,F,1228,Likely pathogenic,Pathogenic,0.971,missense variant,2025-05-14,User01,6.0,-0.1,-1,10,-3.2,2.8
+PROJ-2024-BRCA,SMPL00501,BMPR1A,c.7985T>C,p.Lys2662Gln,K,Q,2662,Likely pathogenic,Pathogenic,0.86,missense variant,2023-05-25,User03,0.4,-1.0,0,0,-3.9,-3.5
+PROJ-2025-ONCO,SMPL00502,MUTYH,c.8079G>T,p.Asn2693Tyr,N,Y,2693,Benign,Benign,0.228,missense variant,2024-05-21,User01,2.2,0.0,0,49,-3.5,-1.3
+PROJ-2024-RARE,SMPL00503,CDH1,c.1351A>G,p.Glu451Trp,E,W,451,Benign,Benign,0.166,synonymous variant,2024-07-13,User02,2.6,1.0,-1,57,-3.5,-0.9
+PROJ-2024-CARD,SMPL00504,STK11,c.1205A>A,p.Lys402Ala,K,A,402,Likely benign,Benign,0.344,missense variant,2024-09-19,User05,5.7,-1.0,-1,-57,-3.9,1.8
+PROJ-2025-META,SMPL00505,SMPD1,c.4289A>A,p.Glu1430Val,E,V,1430,Benign,Benign,0.308,missense variant,2025-03-08,User02,7.7,1.0,-1,-30,-3.5,4.2
+PROJ-2024-CARD,SMPL00506,MYH7,c.7307A>C,p.Val2436Trp,V,W,2436,Likely benign,Benign,0.188,nonsense variant,2023-10-20,User04,-5.1,0.0,0,87,4.2,-0.9
+PROJ-2025-ONCO,SMPL00507,CDH1,c.8692T>C,p.Cys2898Pro,C,P,2898,Likely pathogenic,Pathogenic,0.916,missense variant,2024-12-25,User04,-4.1,0.0,0,-6,2.5,-1.6
+PROJ-2024-CARD,SMPL00508,ARSA,c.5258A>G,p.Leu1753Lys,L,K,1753,Benign,Benign,0.332,missense variant,2024-10-02,User01,-7.7,1.0,1,15,3.8,-3.9
+PROJ-2024-BRCA,SMPL00509,CHEK2,c.1150G>T,p.Asp384Lys,D,K,384,Likely pathogenic,Pathogenic,0.895,frameshift variant,2023-01-22,User04,-0.4,2.0,0,13,-3.5,-3.9
+PROJ-2025-META,SMPL00510,ARSA,c.6118A>T,p.Phe2040Thr,F,T,2040,Benign,Benign,0.252,missense variant,2024-01-25,User01,-3.5,0.0,1,-46,2.8,-0.7
+PROJ-2024-BRCA,SMPL00511,KCNQ1,c.3001T>C,p.Val1001Asn,V,N,1001,Benign,Benign,0.252,frameshift variant,2025-12-08,User02,-7.7,0.0,1,15,4.2,-3.5
+PROJ-2024-BRCA,SMPL00512,APC,c.1640T>T,p.Asp547Pro,D,P,547,Benign,Benign,0.15,missense variant,2023-08-20,User03,1.9,1.0,-1,-18,-3.5,-1.6
+PROJ-2024-RARE,SMPL00513,SMAD4,c.3567A>T,p.Val1189Glu,V,E,1189,Uncertain significance,Benign,0.19,missense variant,2024-09-16,User05,-7.7,-1.0,1,30,4.2,-3.5
+PROJ-2025-ONCO,SMPL00514,TP53,c.707G>G,p.Arg236Thr,R,T,236,Uncertain significance,Benign,0.042,missense variant,2024-12-17,User02,3.8,-1.0,0,-55,-4.5,-0.7
+PROJ-2024-BRCA,SMPL00515,LMNA,c.1246C>T,p.Asn416Ala,N,A,416,Likely benign,Benign,0.193,missense variant,2025-09-25,User01,5.3,0.0,-1,-43,-3.5,1.8
+PROJ-2024-RARE,SMPL00516,PMS2,c.5783C>G,p.Lys1928Ile,K,I,1928,Likely benign,Benign,0.156,missense variant,2025-06-17,User04,8.4,-1.0,-1,-15,-3.9,4.5
+PROJ-2024-CARD,SMPL00517,EPCAM,c.5334C>G,p.Phe1778Pro,F,P,1778,Pathogenic,Pathogenic,0.852,missense variant,2025-03-19,User04,-4.4,0.0,0,-50,2.8,-1.6
+PROJ-2024-RARE,SMPL00518,NBN,c.8187T>T,p.Cys2729His,C,H,2729,Likely pathogenic,Pathogenic,0.97,nonsense variant,2023-09-18,User03,-5.7,0.1,1,34,2.5,-3.2
+PROJ-2024-BRCA,SMPL00519,LMNA,c.1617C>G,p.Thr539Pro,T,P,539,Pathogenic,Pathogenic,0.972,missense variant,2024-04-29,User01,-0.9,0.0,-1,-4,-0.7,-1.6
+PROJ-2025-ONCO,SMPL00520,NBN,c.5340T>C,p.Gln1780Ala,Q,A,1780,Likely benign,Benign,0.13,nonsense variant,2025-11-13,User02,5.3,0.0,-1,-57,-3.5,1.8
+PROJ-2025-ONCO,SMPL00521,SMAD4,c.3240T>A,p.Lys1080Glu,K,E,1080,Likely pathogenic,Pathogenic,0.913,frameshift variant,2025-10-25,User05,0.4,-2.0,0,1,-3.9,-3.5
+PROJ-2024-CARD,SMPL00522,APC,c.7730A>G,p.His2577Tyr,H,Y,2577,Likely pathogenic,Pathogenic,0.826,synonymous variant,2023-10-27,User04,1.9,-0.1,0,26,-3.2,-1.3
+PROJ-2025-META,SMPL00523,BRCA2,c.1118C>C,p.Tyr373His,Y,H,373,Pathogenic,Pathogenic,0.856,missense variant,2025-09-08,User01,-1.9,0.1,0,-26,-1.3,-3.2
+PROJ-2024-RARE,SMPL00524,ARSA,c.3740T>C,p.Gln1247Cys,Q,C,1247,Pathogenic,Pathogenic,0.834,missense variant,2023-04-08,User02,6.0,0.0,-1,-25,-3.5,2.5
+PROJ-2025-ONCO,SMPL00525,TP53,c.8117A>T,p.Ala2706Asp,A,D,2706,Uncertain significance,Benign,0.106,missense variant,2025-10-03,User03,-5.3,-1.0,1,44,1.8,-3.5
+PROJ-2024-CARD,SMPL00526,NBN,c.1190G>G,p.Leu397Glu,L,E,397,Pathogenic,Pathogenic,0.917,frameshift variant,2025-12-19,User05,-7.3,-1.0,1,16,3.8,-3.5
+PROJ-2024-BRCA,SMPL00527,MYBPC3,c.2583A>A,p.Ile861Leu,I,L,861,Benign,Benign,0.159,nonsense variant,2024-01-26,User02,-0.7,0.0,0,0,4.5,3.8
+PROJ-2025-ONCO,SMPL00528,CFTR,c.6717C>A,p.Glu2239Asp,E,D,2239,Benign,Benign,0.146,missense variant,2025-05-06,User05,0.0,0.0,0,-14,-3.5,-3.5
+PROJ-2024-BRCA,SMPL00529,BMPR1A,c.4499A>T,p.Val1500Asn,V,N,1500,Likely benign,Benign,0.235,missense variant,2025-10-28,User01,-7.7,0.0,1,15,4.2,-3.5
+PROJ-2025-META,SMPL00530,EPCAM,c.8562C>T,p.Tyr2854Lys,Y,K,2854,Likely pathogenic,Pathogenic,0.838,missense variant,2025-12-26,User05,-2.6,1.0,0,-35,-1.3,-3.9
+PROJ-2025-ONCO,SMPL00531,PALB2,c.6260G>C,p.Gly2087Ser,G,S,2087,Likely benign,Benign,0.214,missense variant,2023-11-24,User05,-0.4,0.0,1,30,-0.4,-0.8
+PROJ-2025-META,SMPL00532,PTEN,c.6302G>C,p.Trp2101Ala,W,A,2101,Likely benign,Benign,0.196,missense variant,2024-07-03,User05,2.7,0.0,0,-115,-0.9,1.8
+PROJ-2024-BRCA,SMPL00533,MSH2,c.559C>G,p.Gly187Lys,G,K,187,Benign,Benign,0.114,synonymous variant,2024-07-07,User01,-3.5,1.0,1,71,-0.4,-3.9
+PROJ-2025-META,SMPL00534,SMAD4,c.1427G>A,p.His476Trp,H,W,476,Pathogenic,Pathogenic,0.91,synonymous variant,2024-06-24,User02,2.3,-0.1,-1,49,-3.2,-0.9
+PROJ-2024-BRCA,SMPL00535,RYR2,c.3989C>G,p.Tyr1330Leu,Y,L,1330,Pathogenic,Pathogenic,0.905,missense variant,2023-02-02,User05,5.1,0.0,-1,-50,-1.3,3.8
+PROJ-2025-ONCO,SMPL00536,MLH1,c.7698G>G,p.Pro2566Lys,P,K,2566,Benign,Benign,0.211,missense variant,2025-03-20,User02,-2.3,1.0,1,31,-1.6,-3.9
+PROJ-2024-BRCA,SMPL00537,CFTR,c.4529C>T,p.Ile1510Arg,I,R,1510,Likely pathogenic,Pathogenic,0.96,missense variant,2023-12-27,User02,-9.0,1.0,1,43,4.5,-4.5
+PROJ-2024-CARD,SMPL00538,SMPD1,c.260C>A,p.Gly87Met,G,M,87,Uncertain significance,Benign,0.091,missense variant,2025-05-23,User02,2.3,0.0,0,74,-0.4,1.9
+PROJ-2024-BRCA,SMPL00539,HEXA,c.8899A>T,p.Pro2967Glu,P,E,2967,Benign,Benign,0.083,missense variant,2023-08-14,User01,-1.9,-1.0,1,32,-1.6,-3.5
+PROJ-2025-META,SMPL00540,TP53,c.1029A>A,p.Phe343Lys,F,K,343,Uncertain significance,Benign,0.084,missense variant,2024-11-24,User01,-6.7,1.0,1,-19,2.8,-3.9
+PROJ-2024-RARE,SMPL00541,MUTYH,c.6917T>C,p.Phe2306Thr,F,T,2306,Likely benign,Benign,0.293,missense variant,2024-07-01,User05,-3.5,0.0,1,-46,2.8,-0.7
+PROJ-2025-META,SMPL00542,MSH2,c.1265C>A,p.Ala422Asp,A,D,422,Benign,Benign,0.132,synonymous variant,2023-02-19,User02,-5.3,-1.0,1,44,1.8,-3.5
+PROJ-2025-ONCO,SMPL00543,KCNQ1,c.4342A>T,p.Pro1448Phe,P,F,1448,Uncertain significance,Benign,0.11,missense variant,2023-08-14,User02,4.4,0.0,0,50,-1.6,2.8
+PROJ-2024-RARE,SMPL00544,MLH1,c.939A>C,p.Leu313Pro,L,P,313,Benign,Benign,0.143,missense variant,2025-12-22,User03,-5.4,0.0,0,-16,3.8,-1.6
+PROJ-2024-RARE,SMPL00545,APC,c.8201A>G,p.Gln2734Phe,Q,F,2734,Uncertain significance,Benign,0.234,synonymous variant,2025-01-25,User03,6.3,0.0,-1,19,-3.5,2.8
+PROJ-2025-ONCO,SMPL00546,PALB2,c.8060T>A,p.Ala2687Gly,A,G,2687,Likely pathogenic,Pathogenic,0.844,missense variant,2025-05-25,User03,-2.2,0.0,0,-14,1.8,-0.4
+PROJ-2024-RARE,SMPL00547,PMS2,c.1568T>T,p.Asp523Asn,D,N,523,Likely pathogenic,Pathogenic,0.934,missense variant,2025-04-27,User05,0.0,1.0,0,-1,-3.5,-3.5
+PROJ-2025-META,SMPL00548,NBN,c.4708T>C,p.Phe1570Lys,F,K,1570,Likely benign,Benign,0.21,missense variant,2025-05-13,User05,-6.7,1.0,1,-19,2.8,-3.9
+PROJ-2024-BRCA,SMPL00549,STK11,c.4445T>C,p.Asp1482Lys,D,K,1482,Pathogenic,Pathogenic,0.821,synonymous variant,2023-05-03,User03,-0.4,2.0,0,13,-3.5,-3.9
+PROJ-2025-META,SMPL00550,MYBPC3,c.5657C>C,p.Phe1886Met,F,M,1886,Likely pathogenic,Pathogenic,0.947,splice site variant,2023-04-25,User02,-0.9,0.0,0,-16,2.8,1.9
+PROJ-2024-BRCA,SMPL00551,MSH2,c.322A>T,p.Phe108Gln,F,Q,108,Likely benign,Benign,0.155,splice site variant,2023-11-20,User01,-6.3,0.0,1,-19,2.8,-3.5
+PROJ-2025-META,SMPL00552,PMS2,c.971C>C,p.Asn324Phe,N,F,324,Likely pathogenic,Pathogenic,0.795,missense variant,2023-10-14,User05,6.3,0.0,-1,33,-3.5,2.8
+PROJ-2024-BRCA,SMPL00553,RAD51D,c.8879A>C,p.Ser2960Gln,S,Q,2960,Uncertain significance,Benign,0.178,missense variant,2023-03-07,User05,-2.7,0.0,0,41,-0.8,-3.5
+PROJ-2025-ONCO,SMPL00554,APC,c.133G>G,p.Thr45Gly,T,G,45,Likely benign,Benign,0.298,frameshift variant,2025-05-17,User02,0.3,0.0,-1,-44,-0.7,-0.4
+PROJ-2025-ONCO,SMPL00555,CDH1,c.4639A>C,p.Asp1547Val,D,V,1547,Likely pathogenic,Pathogenic,0.929,missense variant,2023-06-08,User04,7.7,1.0,-1,-16,-3.5,4.2
+PROJ-2024-RARE,SMPL00556,GBA,c.4675T>C,p.Met1559Gln,M,Q,1559,Likely pathogenic,Pathogenic,0.791,missense variant,2023-08-02,User01,-5.4,0.0,1,-3,1.9,-3.5
+PROJ-2025-META,SMPL00557,MYBPC3,c.345A>C,p.Tyr115Met,Y,M,115,Likely pathogenic,Pathogenic,0.836,nonsense variant,2024-09-25,User02,3.2,0.0,-1,-32,-1.3,1.9
+PROJ-2025-META,SMPL00558,MUTYH,c.3309T>A,p.Cys1103Lys,C,K,1103,Pathogenic,Pathogenic,0.975,missense variant,2023-07-10,User03,-6.4,1.0,1,25,2.5,-3.9
+PROJ-2025-ONCO,SMPL00559,BRCA1,c.4891G>C,p.Asn1631Leu,N,L,1631,Benign,Benign,0.1,frameshift variant,2023-07-19,User03,7.3,0.0,-1,-1,-3.5,3.8
+PROJ-2025-ONCO,SMPL00560,RYR2,c.6170A>G,p.Thr2057Glu,T,E,2057,Likely pathogenic,Pathogenic,0.785,missense variant,2025-08-06,User01,-2.8,-1.0,0,28,-0.7,-3.5
+PROJ-2024-CARD,SMPL00561,CHEK2,c.8374G>T,p.Ile2792His,I,H,2792,Likely pathogenic,Pathogenic,0.934,frameshift variant,2024-11-25,User03,-7.7,0.1,1,24,4.5,-3.2
+PROJ-2025-META,SMPL00562,MYBPC3,c.490A>C,p.Tyr164Gln,Y,Q,164,Likely benign,Benign,0.114,nonsense variant,2025-10-15,User01,-2.2,0.0,0,-35,-1.3,-3.5
+PROJ-2025-ONCO,SMPL00563,BRCA1,c.6725C>G,p.Phe2242Met,F,M,2242,Pathogenic,Pathogenic,0.88,missense variant,2024-07-27,User05,-0.9,0.0,0,-16,2.8,1.9
+PROJ-2025-ONCO,SMPL00564,MYBPC3,c.875T>G,p.Asn292Asp,N,D,292,Likely pathogenic,Pathogenic,0.922,frameshift variant,2025-06-24,User02,0.0,-1.0,0,1,-3.5,-3.5
+PROJ-2025-ONCO,SMPL00565,MSH2,c.488C>T,p.Trp163Ser,W,S,163,Uncertain significance,Benign,0.306,missense variant,2024-10-04,User03,0.1,0.0,1,-99,-0.9,-0.8
+PROJ-2024-BRCA,SMPL00566,CHEK2,c.5530A>C,p.Gln1844Val,Q,V,1844,Uncertain significance,Benign,0.312,frameshift variant,2023-01-17,User02,7.7,0.0,-1,-29,-3.5,4.2
+PROJ-2024-BRCA,SMPL00567,MLH1,c.1947T>T,p.Leu649Gln,L,Q,649,Benign,Benign,0.164,nonsense variant,2024-12-15,User04,-7.3,0.0,1,15,3.8,-3.5
+PROJ-2024-BRCA,SMPL00568,HEXA,c.1340T>C,p.Val447Arg,V,R,447,Pathogenic,Pathogenic,0.816,missense variant,2023-05-13,User03,-8.7,1.0,1,57,4.2,-4.5
+PROJ-2025-ONCO,SMPL00569,NBN,c.2613C>T,p.Tyr871Ser,Y,S,871,Likely benign,Benign,0.075,missense variant,2024-03-13,User03,0.5,0.0,0,-76,-1.3,-0.8
+PROJ-2025-ONCO,SMPL00570,TP53,c.768A>C,p.Tyr256Pro,Y,P,256,Uncertain significance,Benign,0.285,splice site variant,2025-05-16,User03,-0.3,0.0,-1,-66,-1.3,-1.6
+PROJ-2024-BRCA,SMPL00571,BMPR1A,c.1742T>T,p.Gly581Asp,G,D,581,Pathogenic,Pathogenic,0.835,missense variant,2024-06-15,User02,-3.1,-1.0,1,58,-0.4,-3.5
+PROJ-2024-RARE,SMPL00572,ATM,c.4202T>T,p.Asp1401Arg,D,R,1401,Uncertain significance,Benign,0.091,missense variant,2023-11-26,User04,-1.0,2.0,0,41,-3.5,-4.5
+PROJ-2025-META,SMPL00573,MYH7,c.123A>C,p.Trp41Pro,W,P,41,Benign,Benign,0.283,missense variant,2024-10-10,User01,-0.7,0.0,0,-89,-0.9,-1.6
+PROJ-2025-ONCO,SMPL00574,PMS2,c.6137A>T,p.Arg2046Phe,R,F,2046,Uncertain significance,Benign,0.075,synonymous variant,2023-09-15,User04,7.3,-1.0,-1,-9,-4.5,2.8
+PROJ-2024-CARD,SMPL00575,MLH1,c.2305T>C,p.Cys769Ile,C,I,769,Likely benign,Benign,0.256,missense variant,2024-01-27,User05,2.0,0.0,0,10,2.5,4.5
+PROJ-2025-META,SMPL00576,BRCA1,c.201T>T,p.Asn67Pro,N,P,67,Uncertain significance,Benign,0.318,missense variant,2024-12-21,User03,1.9,0.0,-1,-17,-3.5,-1.6
+PROJ-2024-RARE,SMPL00577,KCNQ1,c.1395C>T,p.Thr465Met,T,M,465,Likely pathogenic,Pathogenic,0.872,missense variant,2025-06-14,User03,2.6,0.0,-1,30,-0.7,1.9
+PROJ-2025-ONCO,SMPL00578,MLH1,c.1104T>A,p.Asp368Phe,D,F,368,Pathogenic,Pathogenic,0.903,nonsense variant,2025-10-27,User05,6.3,1.0,-1,32,-3.5,2.8
+PROJ-2025-META,SMPL00579,TP53,c.2603A>C,p.Leu868Arg,L,R,868,Likely pathogenic,Pathogenic,0.935,splice site variant,2023-09-12,User03,-8.3,1.0,1,43,3.8,-4.5
+PROJ-2025-META,SMPL00580,HEXA,c.95G>G,p.Gln32Pro,Q,P,32,Uncertain significance,Benign,0.282,missense variant,2025-04-29,User02,1.9,0.0,-1,-31,-3.5,-1.6
+PROJ-2024-RARE,SMPL00581,BRCA1,c.190G>G,p.Gln64Cys,Q,C,64,Pathogenic,Pathogenic,0.811,missense variant,2025-05-30,User02,6.0,0.0,-1,-25,-3.5,2.5
+PROJ-2025-ONCO,SMPL00582,LMNA,c.634C>T,p.His212Gln,H,Q,212,Benign,Benign,0.173,synonymous variant,2025-11-25,User02,-0.3,-0.1,0,-9,-3.2,-3.5
+PROJ-2025-META,SMPL00583,KCNQ1,c.8726G>C,p.Ile2909Glu,I,E,2909,Likely pathogenic,Pathogenic,0.881,synonymous variant,2024-02-22,User01,-8.0,-1.0,1,16,4.5,-3.5
+PROJ-2025-META,SMPL00584,CHEK2,c.142A>T,p.Ala48Arg,A,R,48,Benign,Benign,0.087,missense variant,2023-09-25,User04,-6.3,1.0,1,85,1.8,-4.5
+PROJ-2025-META,SMPL00585,MYH7,c.8019T>G,p.Gly2673Lys,G,K,2673,Likely pathogenic,Pathogenic,0.839,nonsense variant,2024-07-17,User01,-3.5,1.0,1,71,-0.4,-3.9
+PROJ-2025-META,SMPL00586,PMS2,c.1272A>C,p.Ala424Tyr,A,Y,424,Pathogenic,Pathogenic,0.872,missense variant,2024-01-05,User01,-3.1,0.0,1,92,1.8,-1.3
+PROJ-2024-BRCA,SMPL00587,PALB2,c.2555A>T,p.Ser852Asn,S,N,852,Likely benign,Benign,0.071,synonymous variant,2023-06-06,User02,-2.7,0.0,0,27,-0.8,-3.5
+PROJ-2024-CARD,SMPL00588,RYR2,c.7787A>C,p.Pro2596Met,P,M,2596,Likely benign,Benign,0.291,nonsense variant,2023-03-06,User01,3.5,0.0,0,34,-1.6,1.9
+PROJ-2024-CARD,SMPL00589,NBN,c.7543G>A,p.Asn2515Thr,N,T,2515,Benign,Benign,0.209,missense variant,2023-03-02,User05,2.8,0.0,0,-13,-3.5,-0.7
+PROJ-2024-BRCA,SMPL00590,BRCA2,c.1875A>G,p.Thr625Val,T,V,625,Likely pathogenic,Pathogenic,0.953,missense variant,2023-06-20,User02,4.9,0.0,-1,-2,-0.7,4.2
+PROJ-2025-META,SMPL00591,CDH1,c.2449G>T,p.Lys817Thr,K,T,817,Pathogenic,Pathogenic,0.85,frameshift variant,2025-10-12,User04,3.2,-1.0,0,-27,-3.9,-0.7
+PROJ-2024-RARE,SMPL00592,ARSA,c.3074A>G,p.Pro1025His,P,H,1025,Likely pathogenic,Pathogenic,0.82,missense variant,2024-02-26,User04,-1.6,0.1,1,40,-1.6,-3.2
+PROJ-2025-META,SMPL00593,KCNQ1,c.7329T>T,p.Arg2443Gln,R,Q,2443,Uncertain significance,Benign,0.293,missense variant,2024-12-23,User03,1.0,-1.0,0,-28,-4.5,-3.5
+PROJ-2025-ONCO,SMPL00594,PALB2,c.416G>T,p.Arg139Gly,R,G,139,Benign,Benign,0.118,missense variant,2024-01-04,User03,4.1,-1.0,-1,-99,-4.5,-0.4
+PROJ-2024-RARE,SMPL00595,KCNQ1,c.3014C>G,p.Gly1005Pro,G,P,1005,Pathogenic,Pathogenic,0.823,missense variant,2024-10-14,User01,-1.2,0.0,0,40,-0.4,-1.6
+PROJ-2025-META,SMPL00596,NBN,c.6975T>G,p.His2325Ser,H,S,2325,Uncertain significance,Benign,0.319,nonsense variant,2025-12-15,User02,2.4,-0.1,0,-50,-3.2,-0.8
+PROJ-2024-BRCA,SMPL00597,MLH1,c.8800T>T,p.Val2934Lys,V,K,2934,Benign,Benign,0.333,missense variant,2024-10-17,User02,-8.1,1.0,1,29,4.2,-3.9
+PROJ-2025-ONCO,SMPL00598,MUTYH,c.6129A>T,p.Cys2043Thr,C,T,2043,Pathogenic,Pathogenic,0.978,missense variant,2024-10-31,User05,-3.2,0.0,1,-2,2.5,-0.7
+PROJ-2025-META,SMPL00599,SCN5A,c.264T>G,p.Ile88Tyr,I,Y,88,Uncertain significance,Benign,0.046,missense variant,2025-04-04,User01,-5.8,0.0,1,50,4.5,-1.3
+PROJ-2025-ONCO,SMPL00600,TP53,c.853G>G,p.Met285Ala,M,A,285,Likely benign,Benign,0.069,missense variant,2024-12-09,User04,-0.1,0.0,0,-60,1.9,1.8

@@ -1,0 +1,258 @@
+{
+  "datasets": [
+    {
+      "id": "breast_cancer",
+      "name": "Breast Cancer Panel",
+      "description": "Synthetic hereditary cancer genetics panel for demonstration",
+      "file": "breast_cancer_panel_demo.xlsx",
+      "format": "xlsx",
+      "variants": 75,
+      "genes": [
+        "BRCA1",
+        "BRCA2",
+        "TP53",
+        "PALB2",
+        "ATM",
+        "CHEK2"
+      ],
+      "categories": [
+        "Oncology",
+        "Hereditary Cancer"
+      ],
+      "created_for": "HelixOS Demo",
+      "synthetic": true,
+      "icon": "dna",
+      "color": "rose"
+    },
+    {
+      "id": "rare_disease",
+      "name": "Rare Disease Panel",
+      "description": "Synthetic pediatric and rare disease genetics panel",
+      "file": "rare_disease_demo.csv",
+      "format": "csv",
+      "variants": 100,
+      "genes": [
+        "CFTR",
+        "DMD",
+        "SCN1A",
+        "MECP2",
+        "FBN1",
+        "COL1A1",
+        "KCNQ1"
+      ],
+      "categories": [
+        "Rare Disease",
+        "Pediatric Genetics"
+      ],
+      "created_for": "HelixOS Demo",
+      "synthetic": true,
+      "icon": "flask",
+      "color": "violet"
+    },
+    {
+      "id": "cardiovascular",
+      "name": "Cardiovascular Genetics",
+      "description": "Synthetic cardiomyopathy and arrhythmia variant panel",
+      "file": "cardiovascular_demo.xlsx",
+      "format": "xlsx",
+      "variants": 80,
+      "genes": [
+        "MYH7",
+        "MYBPC3",
+        "LMNA",
+        "TTN",
+        "KCNH2",
+        "RYR2"
+      ],
+      "categories": [
+        "Cardiology",
+        "Inherited Heart Disease"
+      ],
+      "created_for": "HelixOS Demo",
+      "synthetic": true,
+      "icon": "heart",
+      "color": "red"
+    },
+    {
+      "id": "pharmacogenomics",
+      "name": "Pharmacogenomics Panel",
+      "description": "Synthetic drug-response and metabolism variant library",
+      "file": "pharmacogenomics_demo.csv",
+      "format": "csv",
+      "variants": 30,
+      "genes": [
+        "CYP2C19",
+        "CYP2D6",
+        "CYP3A5",
+        "DPYD",
+        "TPMT"
+      ],
+      "categories": [
+        "Pharmacogenomics",
+        "Drug Response"
+      ],
+      "created_for": "HelixOS Demo",
+      "synthetic": true,
+      "icon": "pill",
+      "color": "amber"
+    },
+    {
+      "id": "research_cohort",
+      "name": "Research Cohort",
+      "description": "Synthetic multi-project researcher workflow dataset (600 variants)",
+      "file": "research_cohort_demo.csv",
+      "format": "csv",
+      "variants": 600,
+      "genes": [
+        "BRCA1",
+        "BRCA2",
+        "TP53",
+        "ATM",
+        "PALB2",
+        "CHEK2",
+        "MLH1",
+        "MSH2",
+        "MSH6",
+        "PMS2",
+        "EPCAM",
+        "APC"
+      ],
+      "categories": [
+        "Research",
+        "Multi-Gene Panel"
+      ],
+      "created_for": "HelixOS Demo",
+      "synthetic": true,
+      "icon": "microscope",
+      "color": "green"
+    },
+    {
+      "id": "model_evaluation",
+      "name": "Model Evaluation Set",
+      "description": "Balanced 1,000-variant dataset for ML model benchmarking (50% pathogenic / 50% benign)",
+      "file": "model_evaluation_dataset.csv",
+      "format": "csv",
+      "variants": 1000,
+      "genes": [
+        "BRCA1",
+        "BRCA2",
+        "TP53",
+        "ATM",
+        "PALB2",
+        "CHEK2",
+        "MLH1",
+        "MSH2",
+        "PTEN",
+        "CDH1",
+        "MYH7",
+        "MYBPC3",
+        "LMNA",
+        "KCNQ1",
+        "SCN1A",
+        "CFTR",
+        "DMD",
+        "FBN1",
+        "COL1A1",
+        "RYR2",
+        "KCNH2",
+        "TTN",
+        "MECP2",
+        "NBN"
+      ],
+      "categories": [
+        "ML Evaluation",
+        "Benchmarking"
+      ],
+      "created_for": "HelixOS Demo",
+      "synthetic": true,
+      "icon": "cpu",
+      "color": "blue"
+    }
+  ],
+  "demo_cases": [
+    {
+      "id": "case_brca1_pathogenic",
+      "title": "High-Confidence Pathogenic \u2014 BRCA1",
+      "variant": "BRCA1 p.Arg1751His",
+      "gene": "BRCA1",
+      "protein_change": "p.Arg1751His",
+      "original_aa": "R",
+      "new_aa": "H",
+      "position": 1751,
+      "prediction": "Pathogenic",
+      "confidence": 0.94,
+      "clinical_significance": "Likely pathogenic",
+      "variant_type": "missense variant",
+      "features": {
+        "HydrophobicityChange": -3.2,
+        "ChargeChange": -1.0,
+        "PolarityChange": 1,
+        "SizeChange": -19
+      },
+      "reasoning": [
+        "Large charge change from positive (Arg) to neutral (His) at a critical domain",
+        "Located in a highly conserved BRCA1 BRCT domain region",
+        "Significant hydrophobicity shift likely affecting protein folding",
+        "Pattern matches known pathogenic BRCA1 variants in training data"
+      ],
+      "summary": "A missense variant replacing Arginine with Histidine at position 1751 in BRCA1. The loss of positive charge at this conserved BRCT domain position is a strong predictor of pathogenicity."
+    },
+    {
+      "id": "case_brca2_vus",
+      "title": "Variant of Uncertain Significance \u2014 BRCA2",
+      "variant": "BRCA2 p.Asn372Asp",
+      "gene": "BRCA2",
+      "protein_change": "p.Asn372Asp",
+      "original_aa": "N",
+      "new_aa": "D",
+      "position": 372,
+      "prediction": "Uncertain",
+      "confidence": 0.61,
+      "clinical_significance": "Uncertain significance",
+      "variant_type": "missense variant",
+      "features": {
+        "HydrophobicityChange": 0.0,
+        "ChargeChange": -1.0,
+        "PolarityChange": 0,
+        "SizeChange": 1
+      },
+      "reasoning": [
+        "Moderate charge change (neutral \u2192 negative) without strong contextual evidence",
+        "Position 372 is not within a known functional domain",
+        "Similar substitutions in training data show mixed pathogenicity",
+        "Insufficient population frequency data to support classification"
+      ],
+      "summary": "A missense variant at a non-critical region of BRCA2. The model has moderate confidence (61%) and cannot clearly classify this variant without additional evidence."
+    },
+    {
+      "id": "case_chek2_benign",
+      "title": "Likely Benign \u2014 CHEK2",
+      "variant": "CHEK2 p.Ile157Thr",
+      "gene": "CHEK2",
+      "protein_change": "p.Ile157Thr",
+      "original_aa": "I",
+      "new_aa": "T",
+      "position": 157,
+      "prediction": "Benign",
+      "confidence": 0.21,
+      "clinical_significance": "Likely benign",
+      "variant_type": "missense variant",
+      "features": {
+        "HydrophobicityChange": -5.2,
+        "ChargeChange": 0.0,
+        "PolarityChange": 1,
+        "SizeChange": -12
+      },
+      "reasoning": [
+        "Common population frequency (~1.4% in general population)",
+        "No charge change \u2014 preserves local electrostatic environment",
+        "Pattern consistent with benign missense variants in training data",
+        "Well-documented in ClinVar with multiple submitters classifying as Likely Benign"
+      ],
+      "summary": "A missense variant at a well-studied CHEK2 position. Despite hydrophobicity change, the population frequency and preserved charge make this variant likely benign."
+    }
+  ],
+  "generated_at": "2026-07-10T17:34:27.215839",
+  "version": "1.0.0",
+  "notice": "All data is entirely synthetic. Not real patient data."
+}

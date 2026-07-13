@@ -1,0 +1,101 @@
+Sample_ID,GeneSymbol,Chromosome,Variant_Position,Reference_Allele,Alternate_Allele,Protein_Change,Original_AA,Position,New_AA,Variant_Type,Clinical_Significance,Review_Status,Population_Frequency,Inheritance,Confidence_Score
+RD0001,MECP2,X,154041101,C,G,p.Asp1084fs*7,D,1084,K,frameshift variant,Likely benign,"criteria provided, multiple submitters, no conflicts",0.00152,Autosomal Dominant,0.179
+RD0002,KCNQ1,11,2501595,T,G,p.Leu1183Ter,L,1183,*,nonsense variant,Likely pathogenic,"criteria provided, conflicting interpretations",0.000494,Autosomal Dominant,0.799
+RD0003,FBN1,15,48735923,A,T,p.Cys1321Arg,C,1321,R,missense variant,Uncertain significance,"criteria provided, single submitter",0.01529,Autosomal Dominant,0.11
+RD0004,MECP2,X,154033532,T,C,p.Thr1140Ter,T,1140,*,nonsense variant,Pathogenic,reviewed by expert panel,0.000409,Autosomal Recessive,0.885
+RD0005,COL1A1,17,50256149,T,A,p.Glu1351Ter,E,1351,*,nonsense variant,Likely pathogenic,no assertion criteria provided,8.9e-05,Autosomal Recessive,0.892
+RD0006,SCN1A,2,166899835,T,A,p.Glu2108Gln,E,2108,Q,missense variant,Likely benign,"criteria provided, multiple submitters, no conflicts",0.01042,X-linked,0.334
+RD0007,KCNQ1,11,2529444,T,A,p.Ser212Ter,S,212,*,nonsense variant,Pathogenic,"criteria provided, single submitter",0.000973,X-linked,0.961
+RD0008,KCNQ1,11,2526394,A,C,p.Ile1273Ter,I,1273,*,nonsense variant,Uncertain significance,"criteria provided, multiple submitters, no conflicts",0.01002,X-linked,0.063
+RD0009,SCN1A,2,166895947,C,A,p.Thr1702Lys,T,1702,K,synonymous variant,Likely benign,"criteria provided, conflicting interpretations",0.01021,Autosomal Dominant,0.115
+RD0010,KCNQ1,11,2505044,G,T,p.Asp1700fs*9,D,1700,L,frameshift variant,Likely pathogenic,"criteria provided, conflicting interpretations",0.000999,Autosomal Recessive,0.933
+RD0011,KCNQ1,11,2525594,T,C,p.Phe2207Ser,F,2207,S,missense variant,Uncertain significance,"criteria provided, multiple submitters, no conflicts",0.01962,Autosomal Dominant,0.297
+RD0012,FBN1,15,48765521,C,A,p.Pro1683fs*13,P,1683,I,frameshift variant,Pathogenic,"criteria provided, multiple submitters, no conflicts",0.000503,X-linked,0.82
+RD0013,SCN1A,2,166865902,T,A,p.Glu409Ter,E,409,*,nonsense variant,Uncertain significance,no assertion criteria provided,0.01565,Autosomal Recessive,0.283
+RD0014,SCN1A,2,166916582,T,A,c.2288-1G>A,Y,329,P,splice site variant,Likely benign,"criteria provided, conflicting interpretations",0.00146,X-linked,0.364
+RD0015,COL1A1,17,50242200,A,C,p.Leu371Ile,L,371,I,missense variant,Likely pathogenic,reviewed by expert panel,0.000904,Autosomal Dominant,0.885
+RD0016,SCN1A,2,166867950,C,A,p.Cys1469Met,C,1469,M,missense variant,Likely pathogenic,"criteria provided, single submitter",0.00061,Autosomal Recessive,0.858
+RD0017,FBN1,15,48701829,G,C,p.Ile2389Ter,I,2389,*,nonsense variant,Pathogenic,reviewed by expert panel,0.000678,Autosomal Dominant,0.786
+RD0018,CFTR,7,117159747,T,A,p.Arg2407Asn,R,2407,N,synonymous variant,Likely pathogenic,no assertion criteria provided,0.000853,Autosomal Dominant,0.899
+RD0019,DMD,X,31155195,T,A,p.Pro1471Tyr,P,1471,Y,synonymous variant,Uncertain significance,"criteria provided, conflicting interpretations",0.01731,X-linked,0.133
+RD0020,CFTR,7,117145068,C,T,p.Tyr1173Ser,Y,1173,S,missense variant,Likely benign,reviewed by expert panel,0.01359,X-linked,0.311
+RD0021,KCNQ1,11,2477725,C,G,p.Phe162Glu,F,162,E,missense variant,Likely pathogenic,reviewed by expert panel,0.000748,Autosomal Dominant,0.871
+RD0022,DMD,X,31182375,G,C,p.Phe1499Trp,F,1499,W,synonymous variant,Uncertain significance,reviewed by expert panel,0.0161,Autosomal Recessive,0.321
+RD0023,CFTR,7,117154811,A,T,c.2577+1G>A,F,1628,K,splice site variant,Benign,"criteria provided, single submitter",0.00915,X-linked,0.307
+RD0024,COL1A1,17,50245844,C,A,p.Lys1561Tyr,K,1561,Y,synonymous variant,Likely benign,"criteria provided, conflicting interpretations",0.0177,X-linked,0.068
+RD0025,SCN1A,2,166860962,T,A,p.Tyr259Ter,Y,259,*,nonsense variant,Uncertain significance,"criteria provided, single submitter",0.01893,Autosomal Recessive,0.275
+RD0026,MECP2,X,154098556,T,G,p.Glu962Phe,E,962,F,missense variant,Likely benign,"criteria provided, multiple submitters, no conflicts",0.01772,X-linked,0.189
+RD0027,CFTR,7,117167685,C,A,p.Ser1146Gln,S,1146,Q,missense variant,Pathogenic,reviewed by expert panel,0.000545,X-linked,0.835
+RD0028,SCN1A,2,166857685,T,G,p.Cys1131Gln,C,1131,Q,missense variant,Pathogenic,"criteria provided, multiple submitters, no conflicts",0.000642,X-linked,0.94
+RD0029,CFTR,7,117197006,C,A,p.Cys998fs*7,C,998,N,frameshift variant,Benign,"criteria provided, multiple submitters, no conflicts",0.00664,Autosomal Dominant,0.054
+RD0030,KCNQ1,11,2488783,G,A,p.Tyr1136Ala,Y,1136,A,missense variant,Likely benign,"criteria provided, single submitter",0.00272,Autosomal Recessive,0.075
+RD0031,KCNQ1,11,2534867,T,A,p.Ile1327Tyr,I,1327,Y,missense variant,Pathogenic,"criteria provided, single submitter",0.000477,Autosomal Recessive,0.753
+RD0032,FBN1,15,48760634,G,T,p.Trp1852Glu,W,1852,E,synonymous variant,Uncertain significance,"criteria provided, single submitter",0.00131,Autosomal Recessive,0.045
+RD0033,KCNQ1,11,2508131,A,T,p.Pro443Arg,P,443,R,synonymous variant,Uncertain significance,"criteria provided, multiple submitters, no conflicts",0.00141,Autosomal Recessive,0.056
+RD0034,FBN1,15,48713597,T,G,p.Trp1332Ter,W,1332,*,nonsense variant,Likely pathogenic,"criteria provided, single submitter",0.000853,X-linked,0.797
+RD0035,KCNQ1,11,2518174,T,C,p.Val1762His,V,1762,H,missense variant,Uncertain significance,"criteria provided, single submitter",0.00632,Autosomal Recessive,0.149
+RD0036,COL1A1,17,50196266,A,G,p.Lys626Ter,K,626,*,nonsense variant,Uncertain significance,"criteria provided, single submitter",0.01492,Autosomal Recessive,0.062
+RD0037,KCNQ1,11,2519757,A,G,p.Phe246Ter,F,246,*,nonsense variant,Uncertain significance,no assertion criteria provided,0.01738,X-linked,0.145
+RD0038,CFTR,7,117149540,T,A,p.Leu1441Ter,L,1441,*,nonsense variant,Pathogenic,reviewed by expert panel,0.000846,Autosomal Recessive,0.76
+RD0039,CFTR,7,117123942,G,A,c.2698+1G>A,K,927,Y,splice site variant,Likely benign,reviewed by expert panel,0.01408,Autosomal Recessive,0.243
+RD0040,SCN1A,2,166849688,C,A,p.Asn744Ter,N,744,*,nonsense variant,Likely benign,"criteria provided, conflicting interpretations",0.00438,Autosomal Recessive,0.17
+RD0041,MECP2,X,154028468,A,C,p.Met1516Gly,M,1516,G,missense variant,Likely pathogenic,"criteria provided, multiple submitters, no conflicts",0.000755,Autosomal Dominant,0.965
+RD0042,COL1A1,17,50212302,G,T,p.Asp1815Ter,D,1815,*,nonsense variant,Uncertain significance,"criteria provided, single submitter",0.00697,Autosomal Dominant,0.185
+RD0043,SCN1A,2,166846677,A,C,p.Trp2159Ser,W,2159,S,missense variant,Uncertain significance,reviewed by expert panel,0.01891,Autosomal Dominant,0.168
+RD0044,KCNQ1,11,2515746,C,T,p.Lys1344Ter,K,1344,*,nonsense variant,Pathogenic,"criteria provided, multiple submitters, no conflicts",0.000501,X-linked,0.832
+RD0045,KCNQ1,11,2506945,A,T,p.Asn1627Asp,N,1627,D,missense variant,Likely benign,no assertion criteria provided,0.01151,X-linked,0.037
+RD0046,COL1A1,17,50231475,T,A,p.Gln472Leu,Q,472,L,synonymous variant,Likely pathogenic,no assertion criteria provided,0.000845,Autosomal Dominant,0.765
+RD0047,MECP2,X,154031584,C,T,c.3874-1G>A,W,2147,P,splice site variant,Pathogenic,"criteria provided, single submitter",0.000531,Autosomal Dominant,0.778
+RD0048,KCNQ1,11,2475788,C,A,p.Asn605Pro,N,605,P,missense variant,Pathogenic,no assertion criteria provided,0.000464,X-linked,0.771
+RD0049,KCNQ1,11,2485698,G,C,p.Trp2313Arg,W,2313,R,synonymous variant,Uncertain significance,"criteria provided, single submitter",0.00943,X-linked,0.143
+RD0050,SCN1A,2,166853126,A,G,p.Lys231Tyr,K,231,Y,missense variant,Likely pathogenic,reviewed by expert panel,7.8e-05,Autosomal Dominant,0.84
+RD0051,FBN1,15,48759545,A,T,p.Tyr1575Ter,Y,1575,*,nonsense variant,Uncertain significance,"criteria provided, multiple submitters, no conflicts",0.0065,Autosomal Recessive,0.307
+RD0052,FBN1,15,48705728,C,A,c.2749+1G>A,F,1846,C,splice site variant,Pathogenic,no assertion criteria provided,0.000991,X-linked,0.851
+RD0053,FBN1,15,48778964,G,A,p.Tyr1491Gly,Y,1491,G,missense variant,Likely pathogenic,reviewed by expert panel,6.7e-05,Autosomal Dominant,0.826
+RD0054,FBN1,15,48711280,G,T,p.Pro1033fs*20,P,1033,L,frameshift variant,Uncertain significance,"criteria provided, multiple submitters, no conflicts",0.01834,Autosomal Recessive,0.336
+RD0055,COL1A1,17,50200797,G,T,p.Pro2438Phe,P,2438,F,missense variant,Uncertain significance,"criteria provided, conflicting interpretations",0.00196,X-linked,0.226
+RD0056,MECP2,X,154046739,T,A,p.Thr75Asn,T,75,N,missense variant,Likely pathogenic,"criteria provided, multiple submitters, no conflicts",0.000156,Autosomal Recessive,0.776
+RD0057,KCNQ1,11,2544194,C,G,c.2488-1G>A,E,2211,V,splice site variant,Likely benign,"criteria provided, multiple submitters, no conflicts",0.00333,X-linked,0.337
+RD0058,KCNQ1,11,2503258,T,G,p.Tyr1793Gly,Y,1793,G,missense variant,Pathogenic,no assertion criteria provided,0.000235,Autosomal Dominant,0.907
+RD0059,SCN1A,2,166895722,G,T,p.Ser1507Ter,S,1507,*,nonsense variant,Uncertain significance,"criteria provided, conflicting interpretations",0.00843,Autosomal Dominant,0.184
+RD0060,KCNQ1,11,2533533,A,C,p.His1025Ter,H,1025,*,nonsense variant,Pathogenic,reviewed by expert panel,8.5e-05,Autosomal Dominant,0.817
+RD0061,SCN1A,2,166891490,T,A,p.Arg604Val,R,604,V,missense variant,Likely benign,no assertion criteria provided,0.00116,X-linked,0.349
+RD0062,SCN1A,2,166864812,G,A,p.Ile335Gln,I,335,Q,missense variant,Likely pathogenic,"criteria provided, single submitter",0.000288,Autosomal Recessive,0.962
+RD0063,COL1A1,17,50203644,C,T,p.Phe1838Thr,F,1838,T,synonymous variant,Uncertain significance,"criteria provided, conflicting interpretations",0.0106,Autosomal Dominant,0.037
+RD0064,KCNQ1,11,2474144,T,A,p.Leu1234Ile,L,1234,I,missense variant,Pathogenic,no assertion criteria provided,0.000597,Autosomal Dominant,0.886
+RD0065,COL1A1,17,50215578,G,T,p.Thr991Tyr,T,991,Y,missense variant,Uncertain significance,no assertion criteria provided,0.00383,X-linked,0.031
+RD0066,CFTR,7,117171325,A,G,p.Thr278Ter,T,278,*,nonsense variant,Benign,"criteria provided, single submitter",0.01275,Autosomal Recessive,0.305
+RD0067,SCN1A,2,166863156,G,A,p.Ala277fs*4,A,277,P,frameshift variant,Likely pathogenic,reviewed by expert panel,0.000546,X-linked,0.921
+RD0068,DMD,X,31124066,T,C,p.Arg747Thr,R,747,T,missense variant,Likely benign,"criteria provided, multiple submitters, no conflicts",0.00097,Autosomal Dominant,0.302
+RD0069,CFTR,7,117157649,C,G,c.3281-1G>A,M,2112,L,splice site variant,Likely pathogenic,"criteria provided, single submitter",0.000866,Autosomal Recessive,0.73
+RD0070,SCN1A,2,166910708,C,T,p.Glu1790fs*13,E,1790,P,frameshift variant,Likely benign,no assertion criteria provided,0.00741,X-linked,0.149
+RD0071,SCN1A,2,166887771,G,A,p.Asp324Arg,D,324,R,synonymous variant,Likely pathogenic,"criteria provided, single submitter",0.000329,Autosomal Recessive,0.767
+RD0072,SCN1A,2,166902678,G,C,p.Arg683Gln,R,683,Q,missense variant,Uncertain significance,"criteria provided, single submitter",0.00159,X-linked,0.045
+RD0073,MECP2,X,154026134,T,A,p.Asn656Val,N,656,V,missense variant,Benign,"criteria provided, single submitter",0.0048,X-linked,0.243
+RD0074,SCN1A,2,166894430,G,C,p.Asn2324Gln,N,2324,Q,missense variant,Pathogenic,"criteria provided, single submitter",0.000574,X-linked,0.837
+RD0075,SCN1A,2,166913531,T,C,p.Pro1142Met,P,1142,M,missense variant,Pathogenic,"criteria provided, conflicting interpretations",0.000119,Autosomal Recessive,0.911
+RD0076,COL1A1,17,50193753,C,G,p.Arg1170His,R,1170,H,synonymous variant,Uncertain significance,"criteria provided, multiple submitters, no conflicts",0.01798,Autosomal Recessive,0.1
+RD0077,CFTR,7,117142966,C,G,p.Met266Pro,M,266,P,missense variant,Uncertain significance,"criteria provided, conflicting interpretations",0.00456,Autosomal Dominant,0.135
+RD0078,KCNQ1,11,2477212,C,A,p.Phe2024Ter,F,2024,*,nonsense variant,Pathogenic,reviewed by expert panel,0.000399,X-linked,0.816
+RD0079,COL1A1,17,50243026,A,G,c.2034+1G>A,S,1683,V,splice site variant,Likely benign,"criteria provided, conflicting interpretations",0.00696,X-linked,0.37
+RD0080,COL1A1,17,50251955,A,C,p.Trp529Gly,W,529,G,synonymous variant,Likely pathogenic,reviewed by expert panel,0.000165,Autosomal Recessive,0.734
+RD0081,COL1A1,17,50200453,G,T,c.2839+1G>A,I,2126,P,splice site variant,Likely benign,reviewed by expert panel,0.01233,Autosomal Dominant,0.252
+RD0082,FBN1,15,48704316,A,C,p.Gly2379fs*20,G,2379,Y,frameshift variant,Pathogenic,"criteria provided, single submitter",0.000949,X-linked,0.808
+RD0083,SCN1A,2,166885266,G,C,p.His1707Tyr,H,1707,Y,missense variant,Uncertain significance,"criteria provided, multiple submitters, no conflicts",0.01611,X-linked,0.341
+RD0084,MECP2,X,154048314,T,C,p.Leu299Ser,L,299,S,missense variant,Uncertain significance,"criteria provided, conflicting interpretations",0.00296,X-linked,0.175
+RD0085,SCN1A,2,166906811,C,A,p.Asn536Ter,N,536,*,nonsense variant,Likely benign,reviewed by expert panel,0.00905,Autosomal Dominant,0.067
+RD0086,CFTR,7,117163065,C,T,p.Cys1574Met,C,1574,M,missense variant,Likely benign,reviewed by expert panel,0.00388,Autosomal Dominant,0.367
+RD0087,MECP2,X,154087822,T,C,p.Thr2043Ter,T,2043,*,nonsense variant,Likely benign,"criteria provided, multiple submitters, no conflicts",0.00438,Autosomal Recessive,0.062
+RD0088,CFTR,7,117134237,A,G,c.3605-1G>A,C,2028,M,splice site variant,Uncertain significance,"criteria provided, multiple submitters, no conflicts",0.01766,X-linked,0.13
+RD0089,SCN1A,2,166855307,G,C,p.Pro186Ter,P,186,*,nonsense variant,Likely pathogenic,"criteria provided, conflicting interpretations",0.000451,X-linked,0.771
+RD0090,SCN1A,2,166918786,G,C,p.Tyr528Glu,Y,528,E,missense variant,Benign,"criteria provided, multiple submitters, no conflicts",0.00406,X-linked,0.308
+RD0091,MECP2,X,154101036,C,T,p.Thr186fs*16,T,186,C,frameshift variant,Pathogenic,"criteria provided, multiple submitters, no conflicts",0.000329,X-linked,0.855
+RD0092,SCN1A,2,166919453,T,C,p.Gly1226Ter,G,1226,*,nonsense variant,Uncertain significance,no assertion criteria provided,0.01633,Autosomal Recessive,0.208
+RD0093,SCN1A,2,166921491,G,T,c.4377+1G>A,E,2391,R,splice site variant,Likely pathogenic,"criteria provided, multiple submitters, no conflicts",0.000722,X-linked,0.875
+RD0094,MECP2,X,154046579,A,C,p.Gly1558fs*2,G,1558,V,frameshift variant,Pathogenic,no assertion criteria provided,0.000314,Autosomal Dominant,0.869
+RD0095,MECP2,X,154039671,A,T,p.His2056Arg,H,2056,R,synonymous variant,Likely benign,"criteria provided, multiple submitters, no conflicts",0.01126,X-linked,0.335
+RD0096,MECP2,X,154056223,G,T,p.Thr1286Ter,T,1286,*,nonsense variant,Benign,no assertion criteria provided,0.00393,Autosomal Dominant,0.217
+RD0097,SCN1A,2,166909764,C,G,p.Val922Leu,V,922,L,synonymous variant,Benign,no assertion criteria provided,0.00704,X-linked,0.3
+RD0098,SCN1A,2,166864868,G,C,p.Leu2349Glu,L,2349,E,missense variant,Uncertain significance,"criteria provided, single submitter",0.00582,X-linked,0.373
+RD0099,CFTR,7,117193812,G,T,p.Asn1051Ser,N,1051,S,missense variant,Uncertain significance,reviewed by expert panel,0.00283,X-linked,0.32
+RD0100,COL1A1,17,50190927,C,A,p.Trp994Ile,W,994,I,synonymous variant,Pathogenic,no assertion criteria provided,0.000331,Autosomal Recessive,0.779

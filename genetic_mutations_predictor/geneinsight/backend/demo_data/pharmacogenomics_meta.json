@@ -1,0 +1,23 @@
+{
+  "id": "pharmacogenomics",
+  "name": "Pharmacogenomics Panel",
+  "description": "Synthetic drug-response and metabolism variant library",
+  "file": "pharmacogenomics_demo.csv",
+  "format": "csv",
+  "variants": 30,
+  "genes": [
+    "CYP2C19",
+    "CYP2D6",
+    "CYP3A5",
+    "DPYD",
+    "TPMT"
+  ],
+  "categories": [
+    "Pharmacogenomics",
+    "Drug Response"
+  ],
+  "created_for": "HelixOS Demo",
+  "synthetic": true,
+  "icon": "pill",
+  "color": "amber"
+}

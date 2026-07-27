@@ -30,11 +30,10 @@ amino_acids = {
     "Val": {"charge": 0, "polarity": 0, "size": 1, "hydrophobicity": 4.2}
 }
 
-df = pd.read_csv("variant_summary.txt.gz", sep = "\t", low_memory=False)
+df = pd.read_csv("variant_summary.txt.gz", sep="\t", low_memory=False)
 
 df = df[["GeneSymbol", "Name", "Type", "OriginSimple", "ClinicalSignificance", "ReviewStatus"]]
 df = df[df["ClinicalSignificance"].isin(["Pathogenic", "Likely pathogenic", "Benign", "Likely benign"])]
-
 df = df.replace({"Pathogenic": 1, "Likely pathogenic": 1, "Benign": 0, "Likely benign": 0})
 
 df.drop(df[df["Name"].str.contains("p.", regex=False, na=False) == False].index, inplace=True)
@@ -44,25 +43,39 @@ df["Position"] = df["Name"].str.extract(r"\(p\.[A-Za-z]{3}(\d+)")
 df["New_AA"] = df["Name"].str.extract(r"\(p\.[A-Za-z]{3}\d+([A-Za-z]{3})\)")
 df = df.rename(columns={"GeneSymbol": "Gene", "OriginSimple": "Origin", "ClinicalSignificance": "Pathogenicity", "ReviewStatus": "Review"})
 
-
 df.drop(df[df["Original_AA"].isnull() | df["Position"].isnull() | df["New_AA"].isnull()].index, inplace=True)
 
-df["OriginalCharge"] = df["Original_AA"].map({aa: characteristics["charge"] for aa, characteristics in amino_acids.items()})
-df["NewCharge"] = df["New_AA"].map({aa: characteristics["charge"] for aa, characteristics in amino_acids.items()})
+df["OriginalCharge"] = df["Original_AA"].map({aa: c["charge"] for aa, c in amino_acids.items()})
+df["NewCharge"] = df["New_AA"].map({aa: c["charge"] for aa, c in amino_acids.items()})
 df["ChargeChange"] = df["NewCharge"] - df["OriginalCharge"]
-df["OriginalPolarity"] = df["Original_AA"].map({aa: characteristics["polarity"] for aa, characteristics in amino_acids.items()})
-df["NewPolarity"] = df["New_AA"].map({aa: characteristics["polarity"] for aa, characteristics in amino_acids.items()})
+df["OriginalPolarity"] = df["Original_AA"].map({aa: c["polarity"] for aa, c in amino_acids.items()})
+df["NewPolarity"] = df["New_AA"].map({aa: c["polarity"] for aa, c in amino_acids.items()})
 df["PolarityChange"] = df["NewPolarity"] - df["OriginalPolarity"]
-df["OriginalSize"] = df["Original_AA"].map({aa: characteristics["size"] for aa, characteristics in amino_acids.items()})
-df["NewSize"] = df["New_AA"].map({aa: characteristics["size"] for aa, characteristics in amino_acids.items()})
+df["OriginalSize"] = df["Original_AA"].map({aa: c["size"] for aa, c in amino_acids.items()})
+df["NewSize"] = df["New_AA"].map({aa: c["size"] for aa, c in amino_acids.items()})
 df["SizeChange"] = df["NewSize"] - df["OriginalSize"]
-df["OriginalHydrophobicity"] = df["Original_AA"].map({aa: characteristics["hydrophobicity"] for aa, characteristics in amino_acids.items()})
-df["NewHydrophobicity"] = df["New_AA"].map({aa: characteristics["hydrophobicity"] for aa, characteristics in amino_acids.items()})
+df["OriginalHydrophobicity"] = df["Original_AA"].map({aa: c["hydrophobicity"] for aa, c in amino_acids.items()})
+df["NewHydrophobicity"] = df["New_AA"].map({aa: c["hydrophobicity"] for aa, c in amino_acids.items()})
 df["HydrophobicityChange"] = df["OriginalHydrophobicity"] - df["NewHydrophobicity"]
 
 df.drop(columns=["Original_AA", "New_AA", "Name"], inplace=True)
 df["Position"] = pd.to_numeric(df["Position"])
 df.dropna(inplace=True)
+
+# Gene pathogenicity rate: fraction of each gene's variants that are pathogenic.
+# Captures prior disease-gene knowledge (BRCA1 ~high, housekeeping genes ~low).
+gene_path_rate = df.groupby("Gene")["Pathogenicity"].mean()
+gene_pathogenicity_rates = gene_path_rate.to_dict()
+joblib.dump(gene_pathogenicity_rates, "gene_pathogenicity_rates.pkl")
+print(f"Gene pathogenicity rates computed for {len(gene_pathogenicity_rates)} genes")
+
+# Global median used as fallback for unknown genes at inference time
+GLOBAL_MEDIAN_RATE = float(df["Pathogenicity"].mean())
+print(f"Global pathogenicity rate (fallback): {GLOBAL_MEDIAN_RATE:.3f}")
+
+df["GenePathogenicityRate"] = df["Gene"].map(gene_pathogenicity_rates)
+
+print(df.shape)
 
 gene_encoder = LabelEncoder()
 type_encoder = LabelEncoder()
@@ -76,17 +89,23 @@ joblib.dump(gene_encoder, "gene_encoder.pkl")
 joblib.dump(type_encoder, "type_encoder.pkl")
 joblib.dump(origin_encoder, "origin_encoder.pkl")
 
-
-x_value_cols = ["OriginalHydrophobicity", "NewHydrophobicity", "HydrophobicityChange", "Type", "Origin", "Gene", "Position", "OriginalCharge", "NewCharge", "ChargeChange", "OriginalPolarity", "NewPolarity", "PolarityChange", "OriginalSize", "NewSize", "SizeChange"]
+x_value_cols = [
+    "OriginalHydrophobicity", "NewHydrophobicity", "HydrophobicityChange",
+    "Type", "Origin", "Gene", "Position",
+    "OriginalCharge", "NewCharge", "ChargeChange",
+    "OriginalPolarity", "NewPolarity", "PolarityChange",
+    "OriginalSize", "NewSize", "SizeChange",
+    "GenePathogenicityRate",
+]
 X = df[x_value_cols]
 Y = df["Pathogenicity"].astype(int)
 
 for i in range(5):
-    X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.2)
+    X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
     rfc = RandomForestClassifier(n_estimators=100, class_weight="balanced", random_state=42)
     rfc.fit(X_train, Y_train)
     rfc_predict = rfc.predict(X_test)
-    rfc_prob = rfc.predict_proba(X_test)[:,1]
+    rfc_prob = rfc.predict_proba(X_test)[:, 1]
     auc = roc_auc_score(Y_test, rfc_prob)
     print("Random Forest:")
     print(f"Accuracy: {accuracy_score(Y_test, rfc_predict):.4f}")
@@ -94,17 +113,8 @@ for i in range(5):
     print(classification_report(Y_test, rfc_predict))
 
 importances = pd.Series(rfc.feature_importances_, index=x_value_cols).sort_values(ascending=False)
+print("\nFeature importances:")
 print(importances)
 
-explainer = shap.TreeExplainer(rfc)
-shap_values = explainer.shap_values(X_test)
-pathogenic_shap_values = shap_values[1]
-
-shap.summary_plot(pathogenic_shap_values, X_test)
-
-sample = X_test.iloc[[0]]
-sample_shap = explainer.shap_values(sample)
-shap.force_plot(explainer.expected_value[1], sample_shap[1], sample)
-
 joblib.dump(rfc, "model.pkl")
-
+print("Model saved.")

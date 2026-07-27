@@ -34,7 +34,8 @@ FEATURE_COLUMNS = [
     "Type", "Origin", "Gene", "Position",
     "OriginalCharge", "NewCharge", "ChargeChange",
     "OriginalPolarity", "NewPolarity", "PolarityChange",
-    "OriginalSize", "NewSize", "SizeChange"
+    "OriginalSize", "NewSize", "SizeChange",
+    "GenePathogenicityRate",
 ]
 
 MODEL_DIR = os.getenv("MODEL_DIR", os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..")))
@@ -44,10 +45,13 @@ _gene_encoder = None
 _type_encoder = None
 _origin_encoder = None
 _explainer = None
+_gene_pathogenicity_rates: Dict[str, float] = {}
+_global_pathogenicity_rate: float = 0.2
 
 
 def load_models():
     global _model, _gene_encoder, _type_encoder, _origin_encoder, _explainer
+    global _gene_pathogenicity_rates, _global_pathogenicity_rate
     if _model is not None:
         return
 
@@ -56,13 +60,19 @@ def load_models():
         gene_enc_path = os.path.join(MODEL_DIR, "gene_encoder.pkl")
         type_enc_path = os.path.join(MODEL_DIR, "type_encoder.pkl")
         origin_enc_path = os.path.join(MODEL_DIR, "origin_encoder.pkl")
+        gene_rates_path = os.path.join(MODEL_DIR, "gene_pathogenicity_rates.pkl")
 
         _model = joblib.load(model_path)
         _gene_encoder = joblib.load(gene_enc_path)
         _type_encoder = joblib.load(type_enc_path)
         _origin_encoder = joblib.load(origin_enc_path)
 
-        # Build SHAP explainer with a small background dataset
+        if os.path.exists(gene_rates_path):
+            _gene_pathogenicity_rates = joblib.load(gene_rates_path)
+            rates = list(_gene_pathogenicity_rates.values())
+            _global_pathogenicity_rate = sum(rates) / len(rates) if rates else 0.2
+            print(f"Gene pathogenicity rates loaded for {len(_gene_pathogenicity_rates)} genes.")
+
         _explainer = shap.TreeExplainer(_model)
         print("ML models loaded successfully.")
     except Exception as e:
@@ -102,6 +112,7 @@ def build_features(
         "OriginalSize": orig_props["size"],
         "NewSize": new_props["size"],
         "SizeChange": new_props["size"] - orig_props["size"],
+        "GenePathogenicityRate": _gene_pathogenicity_rates.get(gene, _global_pathogenicity_rate),
     }
 
 
@@ -133,6 +144,7 @@ def encode_features(features: Dict[str, Any]) -> Optional[np.ndarray]:
             features["OriginalSize"],
             features["NewSize"],
             features["SizeChange"],
+            features.get("GenePathogenicityRate", _global_pathogenicity_rate),
         ]
         return np.array(row, dtype=float).reshape(1, -1)
     except Exception as e:
